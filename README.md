@@ -4,7 +4,6 @@
 - 🛜 Also interest on networking with Cisco
 - 💞️ I’m looking to collaborate on anything :)
 
-<!---
 Hello everyone
 
 DyexaHub/DyexaHub on ✨ beginning ✨ repository because its `README.md` appears.
@@ -13,5 +12,4 @@ I'd love to receive any help, advice, and suggestions.
 
 Thank you ☆
 
-2024 ©️ Github - Dyexa Rahardika
---->
+2024 ©️ Github - Dyexa
