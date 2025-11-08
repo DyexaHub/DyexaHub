@@ -1,13 +1,3 @@
-
-<!-- 🌌 D Y E X A H U B | FUTURISTIC GITHUB PROFILE README -->
-<!-- A chaotic, aesthetic, hyper-detailed visual biography of Andre -->
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=40&duration=4000&pause=1000&color=00FFF6&center=true&vCenter=true&width=900&lines=👾+WELCOME+TO+THE+DIGITAL+REALM+OF+ANDRE+%7C+DYEXAHUB;🧠+INFORMATION+SYSTEMS+STUDENT;⚙️+NETWORK+AND+SYSTEM+ENGINEER;🌌+CREATOR+OF+FUTURISTIC+DIGITAL+CHAOS" alt="Typing Animation" />
-</p>
-
----
-
 <div align="center">
 
 # ⚡ D Y E X A H U B ⚡  
