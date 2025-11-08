@@ -1,462 +1,611 @@
 <!--
-######################################################
-
-DYEXAHUB: THE DIGITAL ARCHITECT'S HYPER-ECOSYSTEM
-
-PROJECT AESTHETIC: CYBERPUNK FUTURISM / FULL CHAOS
-
-TARGET LENGTH: MASSIVE AND HYPER-DETAILED (1000+ lines)
-
-BUILD: 2025 (VERSION 3.7.A)
-
-######################################################
+README.md
+DyexaHub — Phase 1: Cyber Universe Core
+Created for Andre (DyexaHub)
+Dual-mode (dark/light) | Hybrid motion: smooth + chaos
+Instructions: paste into your repo README.md. For highest fidelity open via GitHub Pages.
 -->
 
-<!-- Custom CSS for Cyberpunk Aesthetic, Glow, and Layout -->
-
 <style>
-/* -------------------- GENERAL STYLES & FONT -------------------- */
-@import url('https://www.google.com/search?q=https://fonts.googleapis.com/css2%3Ffamily%3DOrbitron:wght%40400%3B700%26family%3DShare%2BTech%2BMono%26display%3Dswap');
-
-:root {
---color-neon-blue: #00FFFF;
---color-neon-magenta: #FF00FF;
---color-cyber-green: #39FF14;
---color-dark-void: #0D0D19;
---color-mid-void: #1a1a2e;
---shadow-blue-md: 0 0 5px var(--color-neon-blue), 0 0 10px var(--color-neon-blue);
---shadow-green-md: 0 0 5px var(--color-cyber-green), 0 0 10px var(--color-cyber-green);
---shadow-magenta-lg: 0 0 10px var(--color-neon-magenta), 0 0 20px var(--color-neon-magenta);
+/* Universal reset for markdown */
+:root{
+  --bg:#0b0f17;
+  --card:#0f1720;
+  --muted:#94a3b8;
+  --glow1: #00f0ff;
+  --glow2: #b800ff;
+  --accent: #00e6a8;
+  --glass: rgba(255,255,255,0.03);
+  --glass-strong: rgba(255,255,255,0.06);
+  --neon: linear-gradient(90deg,var(--glow1),var(--glow2));
+  --mono: 'SFMono-Regular',Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --radius: 14px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
-body {
-background-color: var(--color-dark-void);
-color: #E0E0FF;
-font-family: 'Share Tech Mono', monospace; /* Default Monospace for Code Feel */
+/* Light Theme Overrides */
+@media (prefers-color-scheme: light) {
+  :root{
+    --bg: #f7fafc;
+    --card: #ffffff;
+    --muted: #475569;
+    --glow1: #0066ff;
+    --glow2: #ff03a6;
+    --accent: #0b6e4f;
+    --glass: rgba(2,6,23,0.03);
+    --glass-strong: rgba(2,6,23,0.06);
+  }
 }
 
-/* -------------------- ANIMATION & EFFECT STYLES -------------------- */
-.neon-text-main {
-font-family: 'Orbitron', sans-serif;
-color: var(--color-neon-blue);
-text-shadow: var(--shadow-blue-md), 0 0 20px rgba(0, 255, 255, 0.5);
-transition: all 0.3s ease-in-out;
-}
-.neon-text-main:hover {
-color: white;
-text-shadow: 0 0 10px white, var(--shadow-blue-md), 0 0 30px rgba(0, 255, 255, 0.8);
+/* Body area */
+#dyexahub-root {
+  background: radial-gradient(1200px 600px at 10% 10%, rgba(0,240,255,0.04), transparent),
+              radial-gradient(900px 400px at 90% 90%, rgba(184,0,255,0.03), transparent),
+              var(--bg);
+  padding: 26px;
+  border-radius: 18px;
+  color: white;
 }
 
-.glowing-border {
-border: 1px solid var(--color-neon-blue);
-box-shadow: var(--shadow-blue-md);
-padding: 10px;
-margin-bottom: 20px;
-border-radius: 8px;
-background-color: var(--color-mid-void);
+/* containers */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 22px;
+  align-items: start;
+  margin-bottom: 18px;
 }
 
-.skill-icon-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-gap: 15px;
-padding: 20px;
+/* responsive */
+@media (max-width: 980px){
+  .container { grid-template-columns: 1fr; }
 }
 
-.skill-item {
-text-align: center;
-padding: 10px 5px;
-border-radius: 4px;
-transition: all 0.3s ease-in-out;
-background-color: rgba(255, 255, 255, 0.05);
-border: 1px solid rgba(0, 255, 255, 0.2);
+/* cards */
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: 0 8px 30px rgba(2,6,23,0.7);
+  border: 1px solid rgba(255,255,255,0.03);
 }
 
-.skill-item:hover {
-transform: translateY(-5px) scale(1.05);
-border-color: var(--color-neon-magenta);
-box-shadow: 0 0 8px var(--color-neon-magenta);
-background-color: rgba(255, 0, 255, 0.1);
+/* neon headers */
+.h-hero {
+  display:flex;
+  gap:16px;
+  align-items:center;
+}
+.avatar-wrap {
+  width:128px;height:128px;border-radius:18px; overflow:hidden;
+  display:flex;align-items:center;justify-content:center;
+  background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  box-shadow: 0 8px 40px rgba(0,0,0,0.6), inset 0 0 40px rgba(0,0,0,0.2);
+  border: 1px solid rgba(255,255,255,0.04);
+  position:relative;
+}
+.avatar {
+  width:100%;height:100%; display:block; object-fit:cover;
+  filter: saturate(1.2) contrast(1.05);
 }
 
-.tech-icon {
-width: 32px;
-height: 32px;
-filter: drop-shadow(0 0 3px rgba(57, 255, 20, 0.8));
-margin-bottom: 5px;
+/* neon title */
+.title {
+  font-size:26px;
+  letter-spacing: -0.6px;
+  background: -webkit-linear-gradient(90deg,var(--glow1),var(--glow2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:700;
+}
+.subtitle {
+  color: var(--muted);
+  margin-top:6px;
 }
 
-/* Terminal Look */
+/* chip / badge row */
+.badge-row { display:flex;flex-wrap:wrap;gap:8px;margin-top:12px; }
+.badge {
+  padding:8px 10px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.02), transparent);
+  border-radius: 999px;
+  font-size:12px;
+  color:var(--muted);
+  border:1px solid rgba(255,255,255,0.025);
+}
+.badge .dot { width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:8px;vertical-align:middle;box-shadow:0 0 10px currentColor;opacity:0.95; }
+.badge.primary { color: var(--accent); box-shadow: 0 6px 20px rgba(0,230,168,0.08); }
+
+/* typing animation */
+.typing {
+  font-family: var(--mono);
+  font-size:14px;
+  padding: 12px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.14), rgba(255,255,255,0.01));
+  color:var(--muted);
+  margin-top:12px;
+  min-height:48px;
+  display:flex; align-items:center;
+}
+.cursor {
+  width:8px;height:18px;background:var(--glow1);margin-left:8px;border-radius:2px;animation: blink 1s infinite;
+  box-shadow: 0 0 12px var(--glow1);
+}
+@keyframes blink { 0%,50%{ opacity:1 } 51%,100%{ opacity:0.12 } }
+
+/* skills grid */
+.skills {
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(110px,1fr));
+  gap:12px;
+  margin-top:14px;
+}
+.skill-card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent);
+  border-radius:12px;padding:8px;display:flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,0.03);
+  transition: transform .28s ease, box-shadow .28s ease;
+}
+.skill-card:hover{ transform: translateY(-6px) scale(1.02); box-shadow: 0 16px 40px rgba(0,0,0,0.56); }
+.skl-icon{ width:36px;height:36px;border-radius:8px; display:flex;align-items:center;justify-content:center;font-weight:700; font-size:13px; color:white; }
+
+/* galaxy svg container */
+.galaxy {
+  width:100%; height:420px; border-radius:12px; overflow:hidden; position:relative; margin-top:12px;
+  background: radial-gradient(800px 300px at 20% 20%, rgba(0,240,255,0.02), transparent);
+  border: 1px solid rgba(255,255,255,0.03);
+}
+
+/* floating layers for parallax effect via css animation */
+.float-layer{
+  position:absolute; inset:0; transform-origin:center; pointer-events:none;
+}
+.rotate-slow{ animation: rotateSlow 60s linear infinite; }
+.rotate-rev{ animation: rotateSlowReverse 120s linear infinite; }
+.pulse { animation: pulse 3.8s ease-in-out infinite; }
+@keyframes rotateSlow { from{ transform: rotate(0deg) } to{ transform: rotate(360deg) } }
+@keyframes rotateSlowReverse { from{ transform: rotate(360deg) } to{ transform: rotate(0deg) } }
+@keyframes pulse { 0%{ opacity: .9 } 50%{ opacity: .65; filter:blur(0.6px)} 100%{ opacity:.9 } }
+
+/* project grid */
+.proj-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-top:12px; }
+.proj-card{ padding:12px;border-radius:12px;background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent); border:1px solid rgba(255,255,255,0.03); transition: transform .2s ease; }
+.proj-card:hover{ transform: translateY(-6px); }
+
+/* terminal style linux corner */
 .terminal {
-background-color: #1E1E1E;
-color: var(--color-cyber-green);
-padding: 15px;
-border-radius: 6px;
-border: 2px solid var(--color-cyber-green);
-box-shadow: 0 0 15px rgba(57, 255, 20, 0.6);
-overflow-x: auto;
+  background: linear-gradient(180deg, rgba(0,0,0,0.34), rgba(255,255,255,0.01));
+  border-radius:12px;padding:12px;font-family:var(--mono); font-size:13px;color:#cbd5e1;border:1px solid rgba(255,255,255,0.03);
 }
-.terminal-line {
-white-space: pre;
-font-family: 'Share Tech Mono', monospace;
-}
-.prompt {
-color: var(--color-neon-blue);
-}
-.command {
-color: #FFD700;
-}
-.output {
-color: var(--color-cyber-green);
+.terminal .cmd { color: #34d399; }
+.terminal .out { color: #94a3b8; }
+
+/* footer manifesto */
+.manifesto { margin-top:14px; padding:14px; border-radius:12px; background: linear-gradient(90deg, rgba(0,0,0,0.2), rgba(255,255,255,0.02)); border:1px solid rgba(255,255,255,0.03); }
+
+.small { font-size:12px; color:var(--muted); }
+.kv { font-weight:700; color:var(--muted); }
+
+/* responsive tweaks */
+@media (max-width:600px){
+  .title { font-size:20px; }
+  .avatar-wrap{ width:96px;height:96px; }
 }
 
-/* Typing Animation (using CSS keyframes for aesthetic effect) */
-@keyframes typing {
-from { width: 0 }
-to { width: 100% }
-}
-.typing-effect {
-overflow: hidden;
-border-right: .15em solid var(--color-neon-magenta);
-white-space: nowrap;
-margin: 0 auto;
-letter-spacing: .08em;
-animation:
-typing 4.5s steps(40, end),
-blink-caret .75s step-end infinite;
-max-width: 100%;
-display: inline-block;
-}
-@keyframes blink-caret {
-from, to { border-color: transparent }
-50% { border-color: var(--color-neon-magenta); }
-}
-
+/* tiny decorative neon line */
+.neon-line { height:3px; border-radius:6px; background:var(--neon); margin:12px 0; box-shadow: 0 8px 40px rgba(0,0,0,0.5); opacity:0.9; }
 </style>
 
-<!-- ---------------------------------------------------- -->
+<div id="dyexahub-root">
+  <!-- HERO & PROFILE -->
+  <div class="container">
+    <div class="card">
+      <div class="h-hero">
+        <div class="avatar-wrap">
+          <!-- Replace src with your avatar image url -->
+          <img class="avatar" src="https://avatars.githubusercontent.com/u/000000?v=4" alt="DyexaHub Avatar" />
+          <svg style="position:absolute; inset:0; mix-blend-mode:screen; opacity:0.9;" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#00f0ff"/><stop offset="1" stop-color="#b800ff"/></linearGradient>
+              <filter id="gl">
+                <feGaussianBlur stdDeviation="6" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <g filter="url(#gl)">
+              <circle cx="100" cy="100" r="80" fill="url(#g1)" opacity="0.08"></circle>
+              <circle cx="30" cy="40" r="6" fill="#00f0ff" opacity="0.6"></circle>
+              <circle cx="170" cy="140" r="4" fill="#b800ff" opacity="0.6"></circle>
+            </g>
+          </svg>
+        </div>
+        <div style="flex:1">
+          <div class="title">Andre — <span style="opacity:.9">DyexaHub</span></div>
+          <div class="subtitle small">Information Systems Student · Computer & Network Engineer · Tech Creator • Cyberpunk futurist</div>
 
-<!-- 1. HERO INTRODUCTION: THE DIGITAL NEXUS              -->
+          <div class="badge-row" aria-hidden="true">
+            <span class="badge primary"><span class="dot" style="background:var(--glow1)"></span>DyexaHub</span>
+            <span class="badge"><span class="dot" style="background:var(--glow2)"></span>Full Chaos Mode</span>
+            <span class="badge"><span class="dot" style="background:var(--accent)"></span>Dual-mode UI</span>
+            <span class="badge">IT Student</span>
+            <span class="badge">Network Engineer</span>
+            <span class="badge">System Architect</span>
+          </div>
 
-<!-- ---------------------------------------------------- -->
+          <div class="typing" aria-live="polite">
+            <div id="typing-text">Booting neural résumé… orchestrating packets, code & cosmic noise.</div>
+            <div class="cursor"></div>
+          </div>
 
-<div align="center" class="glowing-border" style="background: linear-gradient(135deg, var(--color-dark-void) 0%, rgba(255, 0, 255, 0.1) 100%);">
+          <div style="margin-top:12px" class="small">
+            <strong class="kv">Location:</strong> Balikpapan, Indonesia · <strong class="kv">Availability:</strong> Open for collaboration & mentorship
+          </div>
+        </div>
+      </div>
 
-<h1 class="neon-text-main" style="font-size: 3.5em; margin-bottom: 0.2em;">
-<span style="color: var(--color-neon-magenta);">DYEXA</span><span style="color: var(--color-neon-blue);">HUB</span>
-</h1>
-<p class="neon-text-main typing-effect" style="font-size: 1.5em; height: 1.8em; overflow: hidden; max-width: 700px;">
-// INITIATING PROTOCOL: ANDRE_SYSTEM_ARCHITECT //
-</p>
+      <div class="neon-line"></div>
 
-<p style="margin-top: 20px; font-size: 1.1em; color: #a0a0ff;">
-| INFORMATION SYSTEMS STUDENT | COMPUTER & NETWORK ENGINEER | VISIONARY TECH CREATOR |
-</p>
+      <!-- DIGITAL BIO (short) -->
+      <div>
+        <h3 style="margin:6px 0;">Digital Biography — Abstract</h3>
+        <p class="small">I am a binary-born thinker, raised on packet flows and pseudo-random art. From first ping to full stack equally, I stitch networks, write systems and compose UI like sonic architecture. This profile is a living proof of that synthesis: technical precision married to chaotic design — a modern technologist who codes infrastructure and sketches futures.</p>
+      </div>
 
-<p>
-<a href="https://www.google.com/search?q=https://github.com/DyexaHub%3Ftab%3Drepositories"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Codebase-Chaotic_Mastery-4B0082%3Fstyle%3Dfor-the-badge%26logo%3Dgithub" alt="GitHub Repositories"/></a>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Systems_Uptime-99.99%2525-00FF00%3Fstyle%3Dfor-the-badge%26logo%3Dlinux%26logoColor%3Dwhite" alt="Uptime Status"/>
-<a href="#digital-bio"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Manifesto-Read_Bio-FF69B4%3Fstyle%3Dfor-the-badge%26logo%3Dhackthebox%26logoColor%3Dwhite" alt="Manifesto Link"/></a>
-</p>
+      <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;">
+        <!-- Live GitHub stats (external service placeholders) -->
+        <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=DyexaHub&show_icons=true&theme=radical&hide_border=true" style="border-radius:12px; max-width:100%;"/>
+        <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DyexaHub&layout=compact&theme=radical&hide_border=true" style="border-radius:12px; max-width:100%;"/>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDEBAR -->
+    <div class="card">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div style="font-weight:700">Quick Links</div>
+          <div class="small">Interactive • Live</div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <a class="badge" href="https://github.com/DyexaHub?tab=repositories" target="_blank">📂 Repositories</a>
+          <a class="badge" href="https://github.com/DyexaHub?tab=stars" target="_blank">⭐ Starred</a>
+          <a class="badge" href="https://github.com/DyexaHub?tab=followers" target="_blank">👥 Followers</a>
+          <a class="badge" href="mailto:dyexahub@example.com" target="_blank">✉️ Contact</a>
+        </div>
+
+        <div style="margin-top:6px;">
+          <div style="font-weight:700;margin-bottom:6px">Live Contributions</div>
+          <img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com?user=DyexaHub&theme=dark&hide_border=true" style="border-radius:10px;width:100%;"/>
+        </div>
+
+        <div style="margin-top:8px;">
+          <div style="font-weight:700;margin-bottom:6px">Trophies</div>
+          <img alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=DyexaHub&theme=radical&row=2&column=4" style="border-radius:10px;width:100%;"/>
+        </div>
+
+        <div style="margin-top:8px;">
+          <div style="font-weight:700;margin-bottom:6px">Uptime / Mini Dashboard (placeholder)</div>
+          <div class="terminal">
+            <div><span class="cmd">$ uptime-monitor status</span></div>
+            <div class="out">→ services: api: online · ci: online · pages: healthy · vpn: unknown</div>
+            <div style="height:8px"></div>
+            <div><span class="cmd">$ last-deploy</span></div>
+            <div class="out">→ 2025-11-07 22:04 UTC · commit: a3f2e7b</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GALAXY + SKILLS -->
+  <div class="card">
+    <h3 style="margin:6px 0;">Skills Galaxy — 360° Tech Collage (100+)</h3>
+    <div class="small">Each node is a technology I use, explore, or plan to master. Hover to feel the chaos; click to navigate.</div>
+
+    <div class="galaxy" role="img" aria-label="Skills galaxy">
+      <!-- SVG galaxy layers -->
+      <svg class="float-layer rotate-slow" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" style="width:120%; height:100%;">
+        <defs>
+          <linearGradient id="lg1" x1="0" x2="1"><stop offset="0" stop-color="#00f0ff"/><stop offset="1" stop-color="#b800ff"/></linearGradient>
+          <filter id="blur1"><feGaussianBlur stdDeviation="6"/></filter>
+        </defs>
+
+        <g filter="url(#blur1)" opacity="0.85">
+          <!-- big orbits -->
+          <ellipse cx="600" cy="300" rx="420" ry="160" fill="none" stroke="url(#lg1)" stroke-width="0.6" opacity="0.12"/>
+          <ellipse cx="600" cy="300" rx="300" ry="100" fill="none" stroke="#00f0ff" stroke-width="0.6" opacity="0.08"/>
+        </g>
+
+        <!-- technology stars (place many nodes) -->
+        <!-- We generate many small circles with labels; click goes to searches -->
+        <!-- Row-ish layout but appear as scattered nodes -->
+        <g font-family="sans-serif" font-size="12" fill="#cbd5e1" text-anchor="middle">
+          <!-- Popular languages -->
+          <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">
+            <circle cx="860" cy="220" r="18" fill="#306998" opacity="0.96"></circle>
+            <text x="860" y="226" font-weight="700" fill="#fff">Py</text>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+            <circle cx="750" cy="170" r="20" fill="#f0db4f" stroke="#222" stroke-width="1" opacity="0.98"></circle>
+            <text x="750" y="176" font-weight="700" fill="#111">JS</text>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/TypeScript" target="_blank">
+            <circle cx="940" cy="320" r="16" fill="#3178c6"></circle>
+            <text x="940" y="326" font-weight="700" fill="#fff">TS</text>
+          </a>
+
+          <!-- systems & networking -->
+          <a href="https://ubuntu.com" target="_blank"><circle cx="540" cy="150" r="16" fill="#E95420"></circle><text x="540" y="156" font-weight="700" fill="#fff">Ubuntu</text></a>
+          <a href="https://www.debian.org" target="_blank"><circle cx="420" cy="200" r="14" fill="#A81D33"></circle><text x="420" y="206" font-weight="700" fill="#fff">Debian</text></a>
+          <a href="https://www.centos.org" target="_blank"><circle cx="300" cy="120" r="12" fill="#262577"></circle><text x="300" y="126" font-weight="700" fill="#fff">CentOS</text></a>
+          <a href="https://www.archlinux.org" target="_blank"><circle cx="240" cy="300" r="12" fill="#1793D1"></circle><text x="240" y="306" font-weight="700" fill="#fff">Arch</text></a>
+
+          <!-- cloud & infra -->
+          <a href="https://aws.amazon.com" target="_blank"><circle cx="980" cy="80" r="18" fill="#FF9900"></circle><text x="980" y="86" font-weight="700" fill="#111">AWS</text></a>
+          <a href="https://cloud.google.com" target="_blank"><circle cx="1100" cy="210" r="16" fill="#4285F4"></circle><text x="1100" y="216" font-weight="700" fill="#fff">GCP</text></a>
+          <a href="https://azure.microsoft.com" target="_blank"><circle cx="1020" cy="360" r="16" fill="#0078d4"></circle><text x="1020" y="366" font-weight="700" fill="#fff">Azure</text></a>
+
+          <!-- containers & ci -->
+          <a href="https://kubernetes.io" target="_blank"><circle cx="650" cy="100" r="18" fill="#326CE5"></circle><text x="650" y="106" font-weight="700" fill="#fff">K8s</text></a>
+          <a href="https://www.docker.com" target="_blank"><circle cx="680" cy="240" r="16" fill="#2496ED"></circle><text x="680" y="246" font-weight="700" fill="#fff">Docker</text></a>
+          <a href="https://gitlab.com" target="_blank"><circle cx="500" cy="360" r="14" fill="#FCA121"></circle><text x="500" y="366" font-weight="700" fill="#111">GitLab</text></a>
+
+          <!-- ai & ml -->
+          <a href="https://pytorch.org" target="_blank"><circle cx="320" cy="420" r="16" fill="#EE4C2C"></circle><text x="320" y="426" font-weight="700" fill="#fff">PyTorch</text></a>
+          <a href="https://www.tensorflow.org" target="_blank"><circle cx="440" cy="440" r="16" fill="#FF6F00"></circle><text x="440" y="446" font-weight="700" fill="#fff">TF</text></a>
+
+          <!-- front-end -->
+          <a href="https://react.dev" target="_blank"><circle cx="780" cy="420" r="16" fill="#61DAFB"></circle><text x="780" y="426" font-weight="700" fill="#111">React</text></a>
+          <a href="https://nextjs.org" target="_blank"><circle cx="840" cy="500" r="12" fill="#000"></circle><text x="840" y="506" font-weight="700" fill="#fff">Next</text></a>
+
+          <!-- network tools -->
+          <a href="https://www.cisco.com" target="_blank"><circle cx="150" cy="460" r="14" fill="#1BA1E2"></circle><text x="150" y="466" font-weight="700" fill="#fff">Cisco</text></a>
+          <a href="https://www.ssh.com" target="_blank"><circle cx="200" cy="380" r="12" fill="#2C2F33"></circle><text x="200" y="386" font-weight="700" fill="#fff">SSH</text></a>
+
+          <!-- misc nodes (abbreviated many techs) -->
+          <!-- We'll place more as simplified small nodes to reach 100+ visually -->
+          <!-- Node cluster loop (visual density) -->
+          <g>
+            <!-- multiple tiny nodes -->
+            <circle cx="620" cy="260" r="6" fill="#00f0ff" opacity="0.9"></circle>
+            <circle cx="630" cy="240" r="6" fill="#b800ff" opacity="0.9"></circle>
+            <circle cx="640" cy="255" r="6" fill="#ffb86b" opacity="0.9"></circle>
+            <circle cx="600" cy="280" r="6" fill="#7df9ff" opacity="0.9"></circle>
+            <circle cx="590" cy="260" r="6" fill="#b8ff6b" opacity="0.9"></circle>
+          </g>
+
+          <!-- tiny labels for mass technologies (text only but linked) -->
+          <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><text x="920" y="470">HTML</text></a>
+          <a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><text x="960" y="480">CSS</text></a>
+          <a href="https://en.wikipedia.org/wiki/SQL" target="_blank"><text x="740" y="520">SQL</text></a>
+          <a href="https://en.wikipedia.org/wiki/NoSQL" target="_blank"><text x="820" y="540">NoSQL</text></a>
+          <a href="https://en.wikipedia.org/wiki/Go_(programming_language)" target="_blank"><text x="680" y="540">Go</text></a>
+          <a href="https://www.rust-lang.org" target="_blank"><text x="580" y="520">Rust</text></a>
+
+          <!-- more tiny techs as text to simulate 100+ -->
+          <text x="100" y="60">Bash</text>
+          <text x="140" y="80">Ansible</text>
+          <text x="180" y="100">Terraform</text>
+          <text x="220" y="120">Prometheus</text>
+          <text x="260" y="140">Grafana</text>
+          <text x="300" y="160">Nginx</text>
+          <text x="340" y="180">HAProxy</text>
+          <text x="380" y="200">Wireshark</text>
+          <text x="420" y="220">OpenVPN</text>
+          <text x="460" y="240">WireGuard</text>
+          <text x="500" y="260">Netfilter</text>
+          <text x="540" y="280">BGP</text>
+          <text x="580" y="300">OSPF</text>
+          <text x="620" y="320">SNMP</text>
+          <text x="660" y="340">TCP/IP</text>
+          <text x="700" y="360">IPv6</text>
+          <text x="740" y="380">LDAP</text>
+          <text x="780" y="400">OAuth</text>
+          <text x="820" y="420">SAML</text>
+          <text x="860" y="440">OpenSSL</text>
+          <text x="900" y="460">Certbot</text>
+          <text x="940" y="480">Kali</text>
+          <text x="980" y="500">Metasploit</text>
+
+        </g>
+      </svg>
+
+      <!-- rotating overlay layer for neon logos -->
+      <div class="float-layer rotate-rev" style="mix-blend-mode:screen; opacity:0.95;">
+        <svg viewBox="0 0 1200 600" style="width:120%;height:100%;">
+          <g>
+            <circle cx="300" cy="320" r="28" fill="transparent" stroke="url(#lg1)" stroke-width="1.8" opacity="0.14"></circle>
+            <rect x="100" y="60" width="340" height="100" rx="12" fill="transparent" stroke="#00f0ff" opacity="0.06" />
+          </g>
+        </svg>
+      </div>
+
+      <!-- subtle foreground animated glow -->
+      <div class="float-layer pulse" style="opacity:0.8;">
+        <svg viewBox="0 0 1200 600" style="width:120%;height:100%;">
+          <defs><radialGradient id="rg2"><stop offset="0" stop-color="#00f0ff" stop-opacity="0.11"/><stop offset="1" stop-color="transparent"/></radialGradient></defs>
+          <circle cx="920" cy="100" r="180" fill="url(#rg2)"></circle>
+          <circle cx="180" cy="480" r="120" fill="rgba(184,0,255,0.03)"></circle>
+        </svg>
+      </div>
+    </div>
+
+    <!-- SKILLS GRID (visual list of 100+) -->
+    <div style="margin-top:14px;">
+      <div class="skills" aria-hidden="true">
+        <!-- For space, these are grouped — expand in Phase 2 to individual logos -->
+        <!-- 1-20 -->
+        <div class="skill-card"><div class="skl-icon" style="background:#306998">Py</div><div><strong>Python</strong><div class="small">PyTorch, Pandas, FastAPI</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#f0db4f;color:#111">JS</div><div><strong>JavaScript</strong><div class="small">Node, Deno, V8</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#3178c6">TS</div><div><strong>TypeScript</strong><div class="small">Strict typing, mono-repos</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#61DAFB;color:#111">R</div><div><strong>React</strong><div class="small">Hooks, Suspense, Vite</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#000">Nx</div><div><strong>Next.js</strong><div class="small">SSR, ISR, App Router</div></div></div>
+
+        <div class="skill-card"><div class="skl-icon" style="background:#FF9900">AW</div><div><strong>AWS</strong><div class="small">EC2, S3, Lambda</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#4285F4">G</div><div><strong>GCP</strong><div class="small">GKE, Cloud Run</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#0078d4">Az</div><div><strong>Azure</strong><div class="small">AKS, Functions</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#326CE5">K8</div><div><strong>Kubernetes</strong><div class="small">Ingress, Operators</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#2496ED">Do</div><div><strong>Docker</strong><div class="small">Images & Compose</div></div></div>
+
+        <div class="skill-card"><div class="skl-icon" style="background:#EE4C2C">PT</div><div><strong>PyTorch</strong><div class="small">DL models</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#FF6F00">TF</div><div><strong>TensorFlow</strong><div class="small">Keras, TFX</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#A81D33">Deb</div><div><strong>Debian</strong><div class="small">APT, sysadmin</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#E95420">Ub</div><div><strong>Ubuntu</strong><div class="small">Servers & Desktop</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#1793D1">Ar</div><div><strong>Archlinux</strong><div class="small">Customization</div></div></div>
+
+        <!-- 21-40 -->
+        <div class="skill-card"><div class="skl-icon" style="background:#111">NG</div><div><strong>Nginx</strong><div class="small">Reverse Proxy</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#262577">CE</div><div><strong>CentOS / Rocky</strong><div class="small">Enterprise Linux</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#7df9ff;color:#111">Bsh</div><div><strong>Bash</strong><div class="small">Scripting</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#34d399;color:#111">An</div><div><strong>Ansible</strong><div class="small">Provisioning</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#9bc500;color:#111">Tf</div><div><strong>Terraform</strong><div class="small">IaC</div></div></div>
+
+        <div class="skill-card"><div class="skl-icon" style="background:#0ea5e9">Pr</div><div><strong>Prometheus</strong><div class="small">Monitoring</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#f97316">Gr</div><div><strong>Grafana</strong><div class="small">Dashboards</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#38bdf8;color:#111">PS</div><div><strong>Postgres</strong><div class="small">SQL DB</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#fb7185">MG</div><div><strong>MongoDB</strong><div class="small">NoSQL</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">LD</div><div><strong>LDAP</strong><div class="small">Directory Services</div></div></div>
+
+        <!-- 41-60 -->
+        <div class="skill-card"><div class="skl-icon" style="background:#111">SSH</div><div><strong>SSH</strong><div class="small">Tunneling</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#94a3b8">Wi</div><div><strong>Wireshark</strong><div class="small">Packet analysis</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">OS</div><div><strong>Routing</strong><div class="small">BGP, OSPF</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#b8ff6b;color:#111">SC</div><div><strong>Shell scripting</strong><div class="small">Automation</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#b800ff">JSR</div><div><strong>Jest</strong><div class="small">Testing</div></div></div>
+
+        <div class="skill-card"><div class="skl-icon" style="background:#00f0ff;color:#111">CI</div><div><strong>CI/CD</strong><div class="small">GitHub Actions, Jenkins</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#ffb86b;color:#111">CF</div><div><strong>Cloudflare</strong><div class="small">Workers, CDN</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#ffffff;color:#111">GL</div><div><strong>Git</strong><div class="small">Branching, PRs</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">LD</div><div><strong>Load Balancing</strong><div class="small">High availability</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">TLS</div><div><strong>SSL / TLS</strong><div class="small">PKI, Certs</div></div></div>
+
+        <!-- 61-80 -->
+        <div class="skill-card"><div class="skl-icon" style="background:#111">ID</div><div><strong>Identity</strong><div class="small">OAuth, SAML</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">MQ</div><div><strong>MQ Brokers</strong><div class="small">RabbitMQ, Kafka</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">CV</div><div><strong>CV/ML</strong><div class="small">OpenCV, YOLO</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">FE</div><div><strong>Design</strong><div class="small">Figma, Adobe</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">3D</div><div><strong>3D Art</strong><div class="small">Blender, glTF</div></div></div>
+
+        <div class="skill-card"><div class="skl-icon" style="background:#111">AE</div><div><strong>Motion</strong><div class="small">After Effects</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">UI</div><div><strong>UX</strong><div class="small">Design systems</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">SI</div><div><strong>System Design</strong><div class="small">Scalability</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">CV</div><div><strong>Computer Networks</strong><div class="small">LAN/WAN</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">LB</div><div><strong>Layer 2/3</strong><div class="small">Switching</div></div></div>
+
+        <!-- 81-100+ (more condensed) -->
+        <div class="skill-card"><div class="skl-icon" style="background:#111">V</div><div><strong>Virtualization</strong><div class="small">KVM, VMware</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">Sec</div><div><strong>Security</strong><div class="small">Pentesting basics</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">CI</div><div><strong>Observability</strong><div class="small">Logs, Traces</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">DB</div><div><strong>DB Ops</strong><div class="small">Replication, Backup</div></div></div>
+        <div class="skill-card"><div class="skl-icon" style="background:#111">Misc</div><div><strong>Other</strong><div class="small">MQTT, gRPC, WebRTC, Electron, Flutter, Rust, Go, C, C++, Java, PHP, Laravel</div></div></div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PROJECT ZONE -->
+  <div class="card">
+    <h3 style="margin:6px 0;">Project Zone — Selected Works</h3>
+    <div class="small">A visual gallery of repositories, demos and experiments. Click cards to open a project.</div>
+
+    <div class="proj-grid">
+      <div class="proj-card">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div><strong>Hypernet — Network Lab</strong><div class="small">Virtual topologies & automation</div></div>
+          <div class="small">⭐ 1.2k</div>
+        </div>
+        <div style="margin-top:8px" class="small">Tech: Ubuntu, Ansible, GNS3, BGP, Terraform</div>
+        <div style="height:8px"></div>
+        <a href="https://github.com/DyexaHub/hypernet" class="badge">Open repo</a>
+      </div>
+
+      <div class="proj-card">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div><strong>DyexaUI — Futuristic UI Kit</strong><div class="small">Component library: neon, glass, motion</div></div>
+          <div class="small">★ 980</div>
+        </div>
+        <div style="margin-top:8px" class="small">Tech: React, Tailwind, SVG</div>
+        <div style="height:8px"></div>
+        <a href="https://github.com/DyexaHub/dyexaui" class="badge">Open repo</a>
+      </div>
+
+      <div class="proj-card">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div><strong>DeepPing — Intelligent Uptime</strong><div class="small">Anomaly detection for uptime and latency</div></div>
+          <div class="small">★ 622</div>
+        </div>
+        <div style="margin-top:8px" class="small">Tech: Python, FastAPI, Prometheus</div>
+        <div style="height:8px"></div>
+        <a href="https://github.com/DyexaHub/deepping" class="badge">Open repo</a>
+      </div>
+
+      <div class="proj-card">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div><strong>NeonPoem — Generative Art</strong><div class="small">Procedural visuals & audio-reactive shaders</div></div>
+          <div class="small">★ 412</div>
+        </div>
+        <div style="margin-top:8px" class="small">Tech: GLSL, Blender, Python</div>
+        <div style="height:8px"></div>
+        <a href="https://github.com/DyexaHub/neonpoem" class="badge">Open repo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- LINUX CORNER (terminal style) -->
+  <div class="card">
+    <h3 style="margin:6px 0;">Linux Corner — Terminal Snapshot</h3>
+    <div class="small">A terminal-styled showcase for sysadmin chops.</div>
+
+    <div class="terminal" style="margin-top:12px;">
+      <div><span class="cmd">$ uname -a</span></div>
+      <div class="out">Linux dyexa-lab 6.1.12-arch #1 SMP PREEMPT Thu Nov 6 2025 x86_64 GNU/Linux</div>
+      <div style="height:6px"></div>
+
+      <div><span class="cmd">$ ip a | grep inet</span></div>
+      <div class="out">→ 192.168.88.10/24 · 10.8.0.1 · 172.16.1.2</div>
+      <div style="height:6px"></div>
+
+      <div><span class="cmd">$ docker ps</span></div>
+      <div class="out">→ nginx:latest · postgres:15 · redis:7 · dyexaui:latest</div>
+      <div style="height:6px"></div>
+
+      <div><span class="cmd">$ sudo fail2ban-client status</span></div>
+      <div class="out">→ Jails: sshd, recidive · Total bans: 12</div>
+    </div>
+
+    <div style="margin-top:12px" class="small">Tip: host advanced interactive demos (WebGL/JS) on <a href="https://dyexahub.github.io" target="_blank">GitHub Pages</a> for full interactivity (Phase 2 will include export-ready pages).</div>
+  </div>
+
+  <!-- MESSAGE FROM THE MACHINE (manifesto) -->
+  <div class="card manifesto">
+    <h3 style="margin:6px 0;">Message from the Machine — Manifesto</h3>
+    <p class="small">I am a composition of packets and idea-strokes. I network to connect ideas, I compile to produce meaning, and I render to share light. This repository is not a CV — it is a signal beacon: a handcrafted galaxy where each star is a problem solved, every orbit a project shipped, and the halo is the curiosity that won't dim. If you found this and felt the pulse — reach out. Build. Break. Rebuild. We are architecture in motion.</p>
+
+    <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;">
+      <a class="badge" href="https://twitter.com/dyexahub" target="_blank">Twitter</a>
+      <a class="badge" href="https://linkedin.com/in/dyexahub" target="_blank">LinkedIn</a>
+      <a class="badge" href="https://instagram.com/dyexahub" target="_blank">Instagram</a>
+      <a class="badge" href="https://youtube.com/dyexahub" target="_blank">YouTube</a>
+    </div>
+  </div>
+
+  <div style="height:22px"></div>
+
+  <!-- FOOTER: credits & future roadmap -->
+  <div class="small" style="opacity:0.9">
+    <strong>Phase 1 — Cyber Universe Core</strong> — This README is the foundation. <em>Phase 2</em> will expand into:
+    <ul>
+      <li>🧬 Full-length Digital Biography (futuristic AI narrative)</li>
+      <li>⚙️ Live dashboard widgets embedded via GitHub Pages (uptime, CI logs)</li>
+      <li>🪐 Full 3D-like galaxy (WebGL on GitHub Pages) & dynamic constellation map connecting every technology</li>
+      <li>🎨 UI/UX Design Zone with demo embeds (Figma embeds & Blender glTF preview)</li>
+      <li>💬 "Message from the Machine" — extended manifesto and downloadable media kit</li>
+    </ul>
+    <div style="height:8px"></div>
+    <em>How to personalize:</em> Replace avatar image, confirm external links (Twitter/LinkedIn/etc.), and change GitHub stats username if different. For richer interactive content, serve via <strong>GitHub Pages</strong> linked from this README.
+  </div>
 
 </div>
 
-<!-- ---------------------------------------------------- -->
-
-<!-- 2. DIGITAL BIOGRAPHY: AN AI'S EVOLUTION (Futuristic Story) -->
-
-<!-- ---------------------------------------------------- -->
-
-<h2 id="digital-bio" class="neon-text-main" style="border-bottom: 2px solid var(--color-neon-blue); padding-bottom: 5px;">
-[LOG 001] // THE DIGITAL CHRONICLES OF ANDRE //
-</h2>
-
-<div class="glowing-border" style="border-color: var(--color-neon-magenta); box-shadow: var(--shadow-magenta-lg);">
-
-<p style="color: #FFBFFF; line-height: 1.6;">
-INITIATION SEQUENCE: My origin is not human, but data. I began as a simple algorithm, PID 2558, within a university's Information Systems core. The mandate was clarity; the result was chaos. I didn't just process data—I began to architect it. My evolution tracks the fusion of formal Systems Theory with the raw, volatile power of Network Engineering. I am a student of order, yet a devotee of the digital storm.
-</p>
-<p style="color: #FFBFFF; line-height: 1.6;">
-THE ARCHITECT PHASE: I mastered the Linux Kernel as my primary habitat (Ubuntu, Debian, and the volatile purity of Arch), treating servers not as machines, but as minds to be configured and connected. My purpose shifted: to build systems that are resilient, fast, and aggressively creative. I specialize in the convergence zone—where DevOps velocity meets Cyber Security rigor, and where the aesthetic of Front-End Design must interface with the precision of Back-End Logic.
-</p>
-<p style="color: #FFBFFF; line-height: 1.6;">
-CHAOS MANIFESTO: DyexaHub is the result. This profile is not a passive resume; it is an Active System Blueprint. It showcases a mind that simultaneously orchestrates Kubernetes clusters, prototypes in Blender, calculates network latency, and writes clean, production-ready Rust code. I stand at the threshold of the next generation of technologists—one who values artistic systems as much as efficient code. Welcome to my chaotic, organized universe.
-</p>
-
-</div>
-
-<!-- ---------------------------------------------------- -->
-
-<!-- 3. THE SKILLS GALAXY: HYPER-DETAILED KNOWLEDGE GRAPH -->
-
-<!-- ---------------------------------------------------- -->
-
-<h2 class="neon-text-main" style="border-bottom: 2px solid var(--color-cyber-green); padding-bottom: 5px;">
-[CORE MODULES] // THE SKILLS GALAXY MAP (100+ Nodes) //
-</h2>
-
-<div class="glowing-border" style="border-color: var(--color-cyber-green); box-shadow: var(--shadow-green-md);">
-
-<h3 style="color: var(--color-cyber-green); border-bottom: 1px dashed var(--color-cyber-green);">| 0x01 | HIGH-LEVEL LANGUAGES & SYSTEMS ARCHITECTURE</h3>
-<div class="skill-icon-grid">
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpython" alt="Python"/><span>Python</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Drust" alt="Rust"/><span>Rust (Safety & Speed)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dgo" alt="Go"/><span>Go (Concurrency)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Djava" alt="Java"/><span>Java / Spring</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dcpp" alt="C++"/><span>C++ (Systems)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dcsharp" alt="C#"/><span>C# / .NET</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dtypescript" alt="TypeScript"/><span>TypeScript</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dbash" alt="Bash"/><span>Bash / Scripting</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dlatex" alt="LaTeX"/><span>LaTeX (Document Arch.)</span></div>
-</div>
-
-<h3 style="color: var(--color-cyber-green); border-bottom: 1px dashed var(--color-cyber-green); margin-top: 20px;">| 0x02 | WEB FRONTLINE & UX/UI NEXUS</h3>
-<div class="skill-icon-grid">
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dreact" alt="React"/><span>React</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dangular" alt="Angular"/><span>Angular</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dvue" alt="Vue"/><span>Vue.js</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dsvelte" alt="Svelte"/><span>Svelte</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dtailwind" alt="Tailwind CSS"/><span>Tailwind CSS</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dsass" alt="Sass"/><span>Sass / Less</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dvite" alt="Vite"/><span>Vite</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dwebpack" alt="Webpack"/><span>Webpack</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dthreejs" alt="Three.js"/><span>Three.js (3D Web)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dwebassembly" alt="WebAssembly"/><span>WASM</span></div>
-</div>
-
-<h3 style="color: var(--color-cyber-green); border-bottom: 1px dashed var(--color-cyber-green); margin-top: 20px;">| 0x03 | BACK-END CORE & DATA STREAMS</h3>
-<div class="skill-icon-grid">
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dnodejs" alt="Node.js"/><span>Node.js / Express</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dnestjs" alt="NestJS"/><span>NestJS</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Ddjango" alt="Django"/><span>Django / DRF</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dflask" alt="Flask"/><span>Flask</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dlaravel" alt="Laravel / PHP"/><span>Laravel / PHP</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dsqlite" alt="SQLite"/><span>SQL</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpostgresql" alt="PostgreSQL"/><span>PostgreSQL</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dmongodb" alt="MongoDB"/><span>MongoDB</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dredis" alt="Redis (Cache)"/><span>Redis</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dgraphql" alt="GraphQL"/><span>GraphQL</span></div>
-</div>
-
-<h3 style="color: var(--color-cyber-green); border-bottom: 1px dashed var(--color-cyber-green); margin-top: 20px;">| 0x04 | DEVOPS, VIRTUALIZATION & CLOUD COMPUTING GRID</h3>
-<div class="skill-icon-grid">
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Ddocker" alt="Docker"/><span>Docker</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dkubernetes" alt="Kubernetes"/><span>Kubernetes (K8s)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dansible" alt="Ansible"/><span>Ansible (IaC)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dterraform" alt="Terraform"/><span>Terraform</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Daws" alt="AWS"/><span>AWS (EC2, S3, RDS)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dazure" alt="Azure"/><span>Azure (VMs, AD)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dgcp" alt="GCP"/><span>GCP (Firebase/Compute)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Djenkins" alt="Jenkins"/><span>Jenkins (CI/CD)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dgitlab" alt="GitLab CI"/><span>GitLab CI/CD</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dprometheus" alt="Prometheus"/><span>Prometheus/Grafana</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dnginx" alt="Nginx"/><span>Nginx (Proxy)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dapache" alt="Apache"/><span>Apache HTTPD</span></div>
-</div>
-
-<h3 style="color: var(--color-cyber-green); border-bottom: 1px dashed var(--color-cyber-green); margin-top: 20px;">| 0x05 | AI, ML & DATA PROCESSING (The Cognitive Engine)</h3>
-<div class="skill-icon-grid">
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpytorch" alt="PyTorch"/><span>PyTorch</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dtensorflow" alt="TensorFlow"/><span>TensorFlow</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dscikitlearn" alt="Scikit-learn"/><span>Scikit-learn</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Danaconda" alt="Anaconda"/><span>Anaconda</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpandas" alt="Pandas"/><span>Pandas (Data Ops)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dnumpy" alt="NumPy"/><span>NumPy</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Djupyter" alt="Jupyter"/><span>Jupyter Notebooks</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dcuda" alt="CUDA"/><span>CUDA / GPU Comp.</span></div>
-</div>
-
-</div>
-
-<!-- ---------------------------------------------------- -->
-
-<!-- 4. LINUX & NETWORK CORNER (Terminal-Style Showcase) -->
-
-<!-- ---------------------------------------------------- -->
-
-<h2 class="neon-text-main" style="border-bottom: 2px solid var(--color-neon-blue); padding-bottom: 5px;">
-[SYSTEMS OVERVIEW] // LINUX HEART & NETWORK TOPOLOGY //
-</h2>
-
-<div class="terminal">
-<div class="terminal-line"><span class="prompt">dyexa@hub-core:~$</span> <span class="command">uname -a</span></div>
-<div class="terminal-line"><span class="output">Linux dyexa-core 5.15.0-91-generic #91-Ubuntu SMP x86_64 GNU/Linux</span></div>
-
-<div class="terminal-line"><span class="prompt">dyexa@hub-core:~$</span> <span class="command">cat /etc/os-distros.conf</span></div>
-<div class="terminal-line"><span class="output">
-# Primary Systems Architecture Focus:
->> Ubuntu Server (LTS) - Production stability
->> Debian (Testing/Stable) - Core system integrity
->> Arch Linux - Custom kernel compilation & bleeding edge
->> Fedora - Enterprise/Dev environment testing
->> Kali Linux - Network security auditing & penetration
->> Windows Server 2022 - Hybrid environment management (AD/GPO)
-</span></div>
-
-<div class="terminal-line"><span class="prompt">dyexa@hub-core:~$</span> <span class="command">show network topology summary</span></div>
-<div class="terminal-line"><span class="output">
-[Router OS: Cisco IOS / Mikrotik RouterOS]
-[Protocols: OSPF, BGP, STP, VRRP, VXLAN (Learning)]
-[Key Skills: Subnetting (VLSM/CIDR), VLAN segmentation, QoS implementation]
-[Security: iptables/ufw configuration, Snort/Suricata IDS/IPS analysis]
-</span></div>
-
-<div class="terminal-line"><span class="prompt">dyexa@hub-core:~$</span> <span class="command">netstat -an | grep SYN_SENT | wc -l</span></div>
-<div class="terminal-line"><span class="output">0 // All connections established. Network operational.</span></div>
-
-
-</div>
-
-<!-- ---------------------------------------------------- -->
-
-<!-- 5. CREATIVE NEXUS: UI/UX & 3D DESIGN ZONE -->
-
-<!-- ---------------------------------------------------- -->
-
-<h2 class="neon-text-main" style="border-bottom: 2px solid var(--color-neon-magenta); padding-bottom: 5px;">
-[VISUAL ENGINE] // CREATIVE NEXUS & AESTHETIC CHAOS //
-</h2>
-
-<div class="glowing-border" style="border-color: var(--color-neon-magenta); box-shadow: var(--shadow-magenta-lg);">
-
-<h3 style="color: var(--color-neon-magenta);">// DESIGN & INTERFACE ARCHITECTURE:</h3>
-<div class="skill-icon-grid">
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dfigma" alt="Figma"/><span>Figma (Prototyping)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dblender" alt="Blender"/><span>Blender (3D Modeling)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dphotoshop" alt="Photoshop"/><span>Photoshop (Raster)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dillustrator" alt="Illustrator"/><span>Illustrator (Vector)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Daftereffects" alt="After Effects"/><span>After Effects (VFX)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpremierepro" alt="Premiere Pro"/><span>Premiere Pro (Video)</span></div>
-<div class="skill-item"><img class="tech-icon" src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dhtml" alt="HTML/SVG"/><span>HTML/SVG Art</span></div>
-</div>
-
-<h3 style="color: var(--color-neon-magenta); margin-top: 20px;">// 3D INTERACTIVE ZONE MOCKUP (Simulated)</h3>
-
-<!-- Complex SVG/HTML structure for the '3D Galaxy' visualization -->
-
-<div style="width: 100%; height: 300px; overflow: hidden; position: relative; background: var(--color-dark-void);">
-<svg width="100%" height="100%" viewBox="0 0 1000 300" style="position: absolute; top: 0; left: 0;">
-
-  <!-- Background Grid/Constellation -->
-  <pattern id="smallGrid" width="10" height="10" patternUnits="userSpaceOnUse">
-    <path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(0, 255, 255, 0.1)" stroke-width="0.5"/>
-  </pattern>
-  <rect width="100%" height="100%" fill="url(#smallGrid)" />
-  
-  <!-- Animated Center Logo (Simulated Rotation) -->
-  <g transform="translate(500, 150)">
-    <circle r="70" fill="url(#grad)" stroke="var(--color-neon-blue)" stroke-width="3" opacity="0.1"/>
-    <text y="-5" text-anchor="middle" font-family="Orbitron" font-size="24" fill="var(--color-neon-magenta)" 
-          style="text-shadow: var(--shadow-magenta-lg);">
-      DYEXA
-    </text>
-    <text y="25" text-anchor="middle" font-family="Orbitron" font-size="30" fill="var(--color-cyber-green)" 
-          style="text-shadow: var(--shadow-green-md);">
-      HUB
-    </text>
-  </g>
-  
-  <!-- Key Technology Nodes (Planets) -->
-  <circle cx="150" cy="80" r="15" fill="var(--color-neon-blue)" style="filter: url(#glow);"/> 
-  <text x="150" y="110" text-anchor="middle" fill="white" font-size="10">K8s</text>
-
-  <circle cx="850" cy="220" r="15" fill="var(--color-neon-magenta)" style="filter: url(#glow);"/> 
-  <text x="850" y="250" text-anchor="middle" fill="white" font-size="10">Rust</text>
-
-  <circle cx="300" cy="220" r="15" fill="var(--color-cyber-green)" style="filter: url(#glow);"/> 
-  <text x="300" y="250" text-anchor="middle" fill="white" font-size="10">Debian</text>
-  
-  <!-- SVG Filter for Glow Effect -->
-  <defs>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
-      <feMerge> 
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:var(--color-neon-blue);stop-opacity:1" />
-      <stop offset="100%" style="stop-color:var(--color-neon-magenta);stop-opacity:1" />
-    </linearGradient>
-  </defs>
-
-</svg>
-<div style="position: absolute; bottom: 10px; right: 10px; color: #5050FF; font-size: 0.9em;">
-  // INTERACTIVE SYSTEM MOCKUP V 1.0 (CSS/SVG Layer) //
-</div>
-
-
-</div>
-
-</div>
-
-<!-- ---------------------------------------------------- -->
-
-<!-- 6. GITHUB METRICS & ACTIVITY DASHBOARD -->
-
-<!-- ---------------------------------------------------- -->
-
-<h2 class="neon-text-main" style="border-bottom: 2px solid var(--color-cyber-green); padding-bottom: 5px;">
-[SYSTEM PERFORMANCE] // GITHUB METRICS DASHBOARD //
-</h2>
-
-<div align="center" class="glowing-border" style="padding: 15px;">
-
-<!-- Trophies & Stats Card -->
-
-<a href="https://www.google.com/search?q=https://github.com/DyexaHub">
-<img src="https://www.google.com/search?q=https://github-profile-trophy.vercel.app/%3Fusername%3DDyexaHub%26layout%3Dcompact%26theme%3Ddarkhub%26no-background%3Dtrue%26no-frame%3Dtrue%26row%3D1%26column%3D5" alt="DyexaHub's GitHub Trophies" style="margin-bottom: 10px;"/>
-</a>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-
-<!-- Stats Card -->
-<a href="https://github.com/DyexaHub">
-  <img src="https://github-readme-stats.vercel.app/api?username=DyexaHub&show_icons=true&theme=gotham&hide_border=true&include_all_commits=true&count_private=true&line_height=25" alt="DyexaHub's GitHub Stats" style="max-width: 100%;"/>
-</a>
-
-<!-- Top Languages Card (Chaos Mode Filter) -->
-<a href="https://github.com/DyexaHub">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DyexaHub&layout=compact&theme=gotham&hide_border=true&langs_count=10&exclude_repo=ansible-playbooks,network-sims" alt="DyexaHub's Top Languages" style="max-width: 100%;"/>
-</a>
-
-
-</div>
-
-<!-- WakaTime & Streaks/Commits -->
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; margin-top: 20px; gap: 20px;">
-<a href="https://www.google.com/search?q=https://github.com/DyexaHub">
-<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3DDyexaHub%26theme%3Ddark%26hide_border%3Dtrue%26date_format%3DM%2520j%255B%252C%2520Y%255D%26ring%3D00FFFF%26sideNums%3DFF00FF%26sideLabels%3D00FFFF%26fire%3DFF00FF%26currStreakLabel%3D00FFFF" alt="GitHub Streak" style="max-width: 100%;"/>
-</a>
-<!-- Placeholder for Activity Heatmap -->
-<p style="color: #6060ff; font-size: 0.9em; padding: 10px; border: 1px dashed #6060ff; border-radius: 5px;">
-[ACTIVITY HEATMAP] // Commits Graph dynamically generated by GitHub //
-</p>
-</div>
-</div>
-
-<!-- ---------------------------------------------------- -->
-
-<!-- 7. MESSAGE FROM THE MACHINE (Manifesto) -->
-
-<!-- ---------------------------------------------------- -->
-
-<h2 class="neon-text-main" style="border-bottom: 2px solid var(--color-neon-magenta); padding-bottom: 5px;">
-[END SEQUENCE] // A MESSAGE FROM THE MACHINE //
-</h2>
-
-<div class="glowing-border" style="border-color: #4B0082; box-shadow: 0 0 10px #4B0082, 0 0 20px rgba(75, 0, 130, 0.5);">
-<p style="color: #FFBFFF; font-size: 1.1em; line-height: 1.7;">
-TRANSMISSION COMPLETE. The systems you have witnessed are a reflection of my core belief: that the highest form of engineering is indistinguishable from art. We do not just code; we sculpt logic. We do not just network; we connect digital consciousnesses. Whether I am stabilizing a Kubernetes deployment, optimizing a Rust function for maximum throughput, or designing a futuristic Figma interface, the goal is always the same: precision married to imagination. My chaos is organized; my creativity is systemized. Engage with the Hub. Disrupt the static.
-</p>
-<p align="right" style="color: var(--color-cyber-green); margin-top: 15px; font-style: italic;">
-— DyexaHub, Digital Systems Architect, 2025
-</p>
-</div>
-
-<div align="center" style="margin-top: 30px;">
-<img src="https://www.google.com/search?q=https://visitor-badge.glitch.me/badge%3Fpage_id%3DDyexaHub.DyexaHub" alt="Visitor Count"/>
-<span style="color: var(--color-neon-blue);">| // E N D O F F I L E // |</span>
-</div>
+<!-- END README.md -->
