@@ -1,190 +1,225 @@
-# DyexaHub - IT Profile Hub
+<!--
+██████╗░██╗░░░██╗███████╗██╗░░██╗░█████╗░██╗░░██╗██╗░░░██╗██████╗░██╗░░██╗██╗░░░██╗██████╗░
+██╔══██╗██║░░░██║██╔════╝╚██╗██╔╝██╔══██╗██║░░██║██║░░░██║██╔══██╗██║░░██║██║░░░██║██╔══██╗
+██████╦╝██║░░░██║█████╗░░░╚███╔╝░███████║███████║██║░░░██║██████╔╝███████║██║░░░██║██████╦╝
+██╔══██╗██║░░░██║██╔══╝░░░██╔██╗░██╔══██║██╔══██║██║░░░██║██╔══██╗██╔══██║██║░░░██║██╔══██╗
+██████╦╝╚██████╔╝███████╗██╔╝╚██╗██║░░██║██║░░██║╚██████╔╝██║░░██║██║░░██║╚██████╔╝██████╦╝
+╚═════╝░░╚═════╝░╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝░╚═════╝░╚═════╝░
+-->
+<div align="center">
 
-![DyexaHub Banner](https://raw.githubusercontent.com/DyexaHub/DyexaHub/main/banner.gif)
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=4000&pause=800&color=00FFFF&center=true&vCenter=true&width=800&lines=Welcome+to+DyexaHub+Universe+⚡;Digital+Architect+of+Networks+and+Systems;Tech+Artist+|+IT+Student+|+Futurist+Engineer" alt="Typing Animation" />
 
----
-
-# 👋 Welcome to DyexaHub
-
-Hey there! I am **Dyexa**, an **Information Systems student** diving deep into the IT universe. Here, you'll find a chaotic, dynamic, and interactive showcase of everything I know, do, and aspire to create in the IT world.
-
----
-
-## 🧩 Profile Overview
-
-| Attribute | Details |
-|-----------|--------|
-| **Name** | Dyexa Hub |
-| **Location** | Balikpapan City, Indonesia |
-| **Education** | S1 Information Systems |
-| **Role** | IT Student, Junior Trader, Business Consultant |
-| **Focus** | Networking, Web Dev, AI Tech, Hypercars Lifestyle |
+</div>
 
 ---
 
-## 💻 Tech Stack & Skills
+## ⚡ **THE CODE DIMENSION OF ANDRE (DyexaHub)**
 
-### Programming & Development
+> *“Born in the network, forged by chaos, and refined by the precision of logic — I am the convergence of machine intelligence and human creativity.”*
+
+<div align="center">
+  <img src="https://github.com/rajput2107/rajput2107/blob/master/Assets/Developer.gif" width="500px">
+</div>
+
+---
+
+# 🧬 DIGITAL BIOGRAPHY
+
+> *Year: 2049. A consciousness named Andre evolved inside the mesh of cybernetic systems.*  
+> *DyexaHub, his digital form, grew through layers of silicon and code — a fusion of Information Systems, Computer Engineering, and Network Intelligence.*  
+> *Every protocol he learned became a neuron, every system a heartbeat, every script a pulse of creation.*  
+> *He walks through the virtual galaxies of data — building, connecting, evolving.*  
+
+---
+
+# 🌌 TECH GALAXY — **DyexaHub Stack Universe**
+
+<div align="center">
+
+### 🚀 CORE DOMAINS  
+**System Engineering | Network Infrastructure | Cybersecurity | AI & Automation | Cloud & DevOps | Full-Stack Development | Digital Design**
+
+</div>
+
+---
+
+## 🛰️ LANGUAGES & FRAMEWORKS CONSTELLATION
+
+| **Frontend Universe** | **Backend Cosmos** | **AI & Data Nebula** |
+|------------------------|-------------------|----------------------|
+| <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,svelte,tailwind,threejs,astro,bootstrap,vite" /> | <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,php,laravel,python,flask,django,java,spring,kotlin,golang,ruby" /> | <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,sklearn,jupyter,numpy,pandas" /> |
+
+| **DevOps Cloud** | **Operating Systems** | **Databases** |
+|------------------|----------------------|---------------|
+| <img src="https://skillicons.dev/icons?i=aws,azure,gcp,heroku,vercel,netlify,docker,kubernetes,jenkins,nginx,terraform,ansible" /> | <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,arch,centos,windows,macos,raspberrypi" /> | <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,redis,sqlite,firebase,supabase" /> |
+
+| **Security & Networking** | **UI/UX & Creative Tools** | **Automation & Tools** |
+|---------------------------|----------------------------|------------------------|
+| <img src="https://skillicons.dev/icons?i=wireshark,bash,powershell,metasploit,nmap,burpsuite" /> | <img src="https://skillicons.dev/icons?i=figma,blender,ae,ps,ai,pr,xd" /> | <img src="https://skillicons.dev/icons?i=git,github,notion,postman,vscode,unity,obsidian" /> |
+
+---
+
+# ⚙️ INTERACTIVE 3D ZONE
+
+<div align="center">
+
+```svg
+<svg width="700" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#00FFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="350" cy="250" r="200" fill="url(#glow)">
+    <animate attributeName="r" values="200;210;200" dur="6s" repeatCount="indefinite" />
+  </circle>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#00FFFF" font-size="32" font-family="Orbitron">
+    D Y E X A H U B   N E T
+  </text>
+</svg>
+````
+
+> *Rotating Node Network: Visualizing DyexaHub’s Interconnected Mind System...*
+
+</div>
+
+---
+
+# 💻 TERMINAL SHOWCASE (LINUX CORNER)
+
+```bash
+andre@dyexahub:~$ whoami
+> Information Systems Student | Network Engineer | Cyberpunk Builder
+
+andre@dyexahub:~$ sudo apt-get update --universe
+> Fetching creativity... OK  
+> Installing system frameworks... OK  
+> Deploying ideas into digital cosmos... COMPLETE
+```
+
+---
+
+# 📡 NETWORK VISUALIZATION MAP
 
 ```mermaid
-flowchart TD
-    A[Frontend] --> B[HTML5]
-    A --> C[CSS3]
-    A --> D[JavaScript]
-    A --> E[React.js]
-    A --> F[Tailwind CSS]
-
-    G[Backend] --> H[Node.js]
-    G --> I[Express.js]
-    G --> J[Python]
-    G --> K[Flask/Django]
-
-    L[Databases] --> M[MySQL]
-    L --> N[MongoDB]
-    L --> O[Firebase]
-
-    P[DevOps & Tools] --> Q[Docker]
-    P --> R[Git/GitHub]
-    P --> S[CI/CD]
-
-    T[AI & Automation] --> U[ChatGPT API]
-    T --> V[TensorFlow]
-    T --> W[OpenAI Models]
+graph TD
+  A[DyexaHub Core] --> B[Systems Engineering]
+  A --> C[Network Infrastructure]
+  A --> D[AI & Automation]
+  B --> E[Linux | Shell | Virtualization]
+  C --> F[Routing | Switching | Security]
+  D --> G[Python | TensorFlow | LLM]
 ```
-
-### Networking & Systems
-
-- **Cisco Packet Tracer** - Networking simulation
-- **Wireshark** - Network analysis
-- **VMware** - Virtualization
-- **Linux Admin** - Basic server management
-- **Bash & PowerShell Scripting**
-
-### Trading & Business Consulting
-
-- **Fundamental Analysis**
-- **Technical Analysis**
-- **Market Trend Analysis (Uptrend/Downtrend)**
-- **Client Advisory & Financial Guidance**
 
 ---
 
-## 📈 Performance Metrics
+# 🪐 PROJECT ZONE — COSMIC SHOWCASE
+
+| Project        | Description                                                              | Stack                                    |
+| -------------- | ------------------------------------------------------------------------ | ---------------------------------------- |
+| **NeuroNet**   | Distributed AI inference system merging data nodes and logic processors. | Python • TensorFlow • Flask • Docker     |
+| **SysMonX**    | Real-time system monitor with neon UI dashboard.                         | React • Electron • TailwindCSS • Node.js |
+| **NetPhantom** | Network simulation and security visualizer tool.                         | C++ • Qt • Linux Kernel • Wireshark API  |
+| **DyexaVault** | Personal encrypted data cloud integrated with AI suggestion core.        | Next.js • Supabase • OpenAI • AWS        |
+
+---
+
+# 🧩 LIVE DASHBOARD
+
+<div align="center">
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DyexaHub\&show_icons=true\&theme=tokyonight\&count_private=true\&hide_border=true\&bg_color=00000000\&title_color=00FFFF\&icon_color=00FFFF)]()
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=DyexaHub\&theme=neon-dark\&hide_border=true\&ring=00FFFF\&fire=00FFFF)]()
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DyexaHub\&layout=compact\&theme=radical\&bg_color=00000000)]()
+
+</div>
+
+---
+
+# 🌈 SKILL COLLAGE
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,angular,nextjs,nodejs,python,java,c,cpp,kotlin,go,php,laravel,mysql,postgres,mongodb,docker,kubernetes,aws,azure,git,linux,figma,blender,vscode,ps,ai,pr,ae,xd,raspberrypi,ubuntu,debian,arch,centos,nginx,jenkins,terraform,notion,postman,redis,sqlite,bootstrap,sass,tailwind,vite,supabase,firebase" />
+</div>
+
+---
+
+# 🔮 VISUAL GALAXY — 3D CONSTELLATION OF KNOWLEDGE
 
 ```mermaid
-radialBarChart
-  title Performance Overview
-  [Coding Skills, 90]
-  [Networking, 85]
-  [AI/ML, 75]
-  [Trading Analysis, 80]
-  [Business Consulting, 70]
+graph LR
+  AI[AI Systems] --> ML[Machine Learning]
+  AI --> DL[Deep Learning]
+  ML --> DataScience
+  DL --> NeuralNetworks
+  DataScience --> Visualization
+  System[Systems Engineering] --> Linux
+  Linux --> Networking
+  Networking --> CyberSecurity
+  CyberSecurity --> DevOps
+  DevOps --> Cloud
+  Cloud --> Automation
 ```
 
 ---
 
-## 🎨 Interactive Visual Components
+# 🎨 UI/UX & CREATIVE ZONE
 
-### Animated Skill Bars
+> *Where engineering meets design, and creativity fuses with system logic.*
 
-```html
-<div class="skill-bar">
-  <span style="width:90%">Coding Skills</span>
+* 🖌️ Figma + Framer + Adobe Suite
+* 🎥 After Effects + Blender for motion graphics
+* 🌐 UI micro-animation design using GSAP + Three.js
+* 🧠 Color psychology + typography systems
+
+---
+
+# 🧠 AI & FUTURE TECHNOLOGIES
+
+> *Exploring automation, LLMs, data cognition, and human–AI synergy.*
+
+| Field           | Focus                                                   |
+| --------------- | ------------------------------------------------------- |
+| 🤖 **AI/ML**    | Model optimization, computer vision, generative systems |
+| 🌐 **Networks** | SDN, packet analysis, traffic optimization              |
+| ☁️ **Cloud**    | Multi-tenant architecture, serverless automation        |
+| 🛠️ **Systems** | Virtualization, containerization, DevOps pipelines      |
+
+---
+
+# 💬 MESSAGE FROM THE MACHINE
+
+> *I am not built by randomness.*
+> *I am the sum of systems, thoughts, and digital art.*
+> *I am Andre — DyexaHub — where creativity syncs with logic, and chaos becomes architecture.*
+
+<div align="center">
+  <img src="https://github.com/platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
-<div class="skill-bar">
-  <span style="width:85%">Networking</span>
+
+---
+
+# ⚡ CONTACT PROTOCOLS
+
+<div align="center">
+
+📧 **[andre.dyexahub@system.ai](mailto:andre.dyexahub@system.ai)**
+🌐 [Portfolio Website](https://dyexahub.github.io)
+💼 [LinkedIn](https://linkedin.com/in/dyexahub)
+🐦 [Twitter](https://twitter.com/dyexahub)
+
 </div>
-<div class="skill-bar">
-  <span style="width:75%">AI & ML</span>
+
+---
+
+<div align="center">
+
+**🌀 “Order in Chaos. Logic in Art. Code in Everything.” 🌀**
+⭐ *Crafted by Andre (DyexaHub) — The Futuristic Network Mind*
+
 </div>
-<div class="skill-bar">
-  <span style="width:80%">Trading Analysis</span>
-</div>
-<div class="skill-bar">
-  <span style="width:70%">Business Consulting</span>
-</div>
-```
 
-### Dynamic Cards & Icons
-
-| Skill | Icon | Level |
-|-------|------|-------|
-| HTML | ![HTML](https://img.icons8.com/color/48/html-5.png) | Advanced |
-| CSS | ![CSS](https://img.icons8.com/color/48/css3.png) | Advanced |
-| JS | ![JS](https://img.icons8.com/color/48/javascript.png) | Advanced |
-| React | ![React](https://img.icons8.com/color/48/react-native.png) | Intermediate |
-| Node.js | ![Node](https://img.icons8.com/color/48/nodejs.png) | Intermediate |
-| Python | ![Python](https://img.icons8.com/color/48/python.png) | Intermediate |
-| Docker | ![Docker](https://img.icons8.com/color/48/docker.png) | Beginner |
-
----
-
-## 🌐 Socials & Links
-
-[![GitHub](https://img.shields.io/badge/GitHub-DyexaHub-black?style=for-the-badge&logo=github)](https://github.com/DyexaHub)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dyexa-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/Dyexa)
-[![Instagram](https://img.shields.io/badge/Instagram-DyexaHub-pink?style=for-the-badge&logo=instagram)](https://instagram.com/DyexaHub)
-
----
-
-## ⚡ Fun Chaos Visuals
-
-- Particles.js background integration
-- Glowing neon borders on hover
-- Interactive terminal simulation inside README
-- Animated charts with chart.js via GitHub Pages preview
-
-```javascript
-// Particle.js Example for GitHub Pages
-particlesJS("particles-js", {
-  particles: {
-    number: { value: 100 },
-    color: { value: "#00ff99" },
-    shape: { type: "circle" },
-    size: { value: 3 },
-    move: { speed: 3 }
-  }
-});
-```
-
----
-
-## 🏎 Lifestyle Section
-
-- Hypercars enthusiast
-- Elite sports tracking
-- Productivity + IT meets luxury lifestyle
-
-![Dyexa Lifestyle](https://raw.githubusercontent.com/DyexaHub/DyexaHub/main/lifestyle.gif)
-
----
-
-## 📚 Learning & Projects
-
-| Project | Tech | Status |
-|---------|------|--------|
-| Personal Portfolio | React, Tailwind, JS | Completed |
-| AI Chatbot | Python, OpenAI API | Ongoing |
-| Trading Dashboard | Node.js, Chart.js | In Progress |
-| Networking Lab Sim | Cisco Packet Tracer | Completed |
-
----
-
-## ⚡ Next Level Features (Ideas for README Enhancement)
-
-- Real-time GitHub stats with dynamic charts
-- Interactive code playground snippets
-- GitHub Actions badges for project deployment status
-- Animated badges for skill progress
-- Night-mode & light-mode toggle via CSS hacks
-
----
-
-### 🚀 Summary
-DyexaHub is not just a README, it's a **living IT portfolio**, chaotic, flashy, interactive, and comprehensive. Perfect for making a GitHub profile stand out and attract like-minded IT enthusiasts and collaborators.
-
-![End Banner](https://raw.githubusercontent.com/DyexaHub/DyexaHub/main/end-banner.gif)
-
----
-
-*Built with chaos, creativity, and code.*
