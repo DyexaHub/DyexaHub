@@ -139,12 +139,6 @@ Installing futuristic-modules... Done
 ✨ System ready. Launching DyexaHub environment...
 ```
 
-<p align="center">
-  <img src="https://i.imgur.com/d7UwZRp.gif" width="600px">
-</p>
-
----
-
 ## 🎨 DESIGN & UI/UX ZONE
 
 🧠 **Core Tools:**
@@ -159,14 +153,6 @@ UI Motion | Neon Futurism | Cyberpunk Holography | Dark System Interface | Anima
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nestjs,redux,vite,vercel,postman,redis,elasticsearch,nginx,graphql,prisma,tailwind,threejs,astro,vue,laravel,bootstrap,webpack,emotion,supabase,deno" />
-</p>
-
----
-
-## 🧩 UPTIME MONITOR
-
-<p align="center">
-  <img src="https://api.checklyhq.com/v1/badges/checks/uptime?style=for-the-badge&theme=dark&logo=linux&label=System%20Online">
 </p>
 
 ---
