@@ -1,249 +1,209 @@
-<!-- Animated Header -->
+
+<!-- 🌌 ────────────────────────────── -->
+<!--  ⚡  DYEXAHUB | ANDRE README PROFILE  ⚡  -->
+<!-- 🌌 ────────────────────────────── -->
+
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=4000&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=Hey+There%2C+I'm+Andre!;Information+Systems+%26+Network+Engineer;Lifelong+Learner+%26+Tech+Visionary;Welcome+to+My+Digital+Universe!+⚡" alt="Typing SVG" />
+</h1>
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&color=%2300FFFF&size=30&center=true&vCenter=true&width=900&height=60&lines=👋+Hey+There!+I'm+Mr.+Andre;💻+Information+System+Student+%7C+IT+Enthusiast;🌍+Based+in+Balikpapan,+Indonesia;🚀+Exploring+AI,+DevOps,+Cloud,+and+Trading+Tech;✨+Let's+Build+Something+Incredible!">
+  <img src="https://github.com/DyexaHub/DyexaHub/assets/00000000/futuristic-banner.gif" alt="banner" width="90%" />
 </p>
 
 ---
 
-<!-- 3D Profile Banner -->
+## 🧠 About Me
+```yaml
+Name: Andre
+Username: DyexaHub
+Role: Information Systems Student | Computer & Network Engineer | Tech Explorer
+Passion: Building scalable systems, UI/UX, trading automation, and AI integration
+Location: Balikpapan, East Kalimantan - Indonesia
+Motto: "Learn, Build, Break, Repeat."
+````
+
+I’m an IT enthusiast who thrives at the intersection of **systems, networks, and creative technology** — transforming code, data, and design into functional beauty.
+Currently exploring **AI-powered automation**, **DevOps pipelines**, and **data-driven trading systems**.
+
+---
+
+## ⚙️ My Digital Arsenal
+
+### 🧩 Core Tech Stack
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="3D Contribution Snake" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,tailwind,bootstrap,threejs,nodejs,express,python,java,cpp,cs,php,mysql,postgresql,mongodb,sqlite,redis,firebase,supabase,linux,ubuntu,debian,windows,docker,kubernetes,nginx,aws,gcp,azure,vscode,figma,postman,git,github,gitlab,powershell,bash" />
 </p>
 
 ---
 
-## 🧠 About Me  
+### 💻 Operating Systems I Use
 
-> "Technology is my weapon, creativity is my strategy, and learning is my way of life."
-
-👨‍💻 I’m **Mr. Andre**, an **Information Systems student**, **Networking Enthusiast**, **Business Consultant**, and **Junior Trader** who’s passionate about the intersection of **AI, Trading Systems, and IT Infrastructure**.  
-I’m on a lifelong journey of mastering digital systems — from **servers to software, automation to algorithms**, and **UX to cybersecurity**.  
-
-💡 I love building intelligent systems, optimizing workflows, and designing human-friendly digital environments.  
-🌱 Currently exploring: **AI in trading**, **DevOps automation**, **network security**, and **full-stack app development**.  
-⚙️ Motto: *"Code. Consult. Connect."*
+| Linux Distros | Windows Environments | Virtualization Tools |
+| ------------- | -------------------- | -------------------- |
+| Ubuntu 🐧     | Windows 11 Pro 💠    | VirtualBox           |
+| Debian ⚙️     | Windows Server 2022  | VMware Workstation   |
+| Fedora        | Windows Sandbox      | WSL2                 |
+| Kali Linux 🐉 | -                    | Hyper-V              |
 
 ---
 
-## 🌈 Themed UI Design Goals  
+### 🧰 Network Engineering Tools
 
-This profile intentionally blends **modern UI/UX visuals** and **developer aesthetics**:
-- Neon & gradient elements  
-- Animated SVGs & glow effects  
-- Organized skill clusters  
-- 3D badges  
-- Motion-inspired layout  
+* Cisco Packet Tracer / GNS3 / Wireshark / Netcat
+* RouterOS / MikroTik / pfSense / OpenWRT
+* LAN/WAN, VLAN, DNS, DHCP, NAT Configuration
+* Network Security & Pentesting Basics
 
 ---
 
-# 🏗️ Tech Universe
-
-## 🪐 Programming & Scripting Languages  
+## 🎨 UI/UX & Design Arsenal
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,cs,html,css,js,ts,php,ruby,go,rust,swift,kotlin,bash,powershell,perl,solidity,sql,matlab,scala,elixir,react,vue,angular,nodejs,express,nextjs,tailwind,flutter,dart" />
+  <img src="https://skillicons.dev/icons?i=figma,blender,photoshop,illustrator,xd,aftereffects,canva,ae,pr" />
 </p>
 
-🧩 and more:
-> Lua • R • Clojure • COBOL • Fortran • JSON • YAML • Markdown • XML • VHDL • Assembly
+> I believe *design is code in motion* — every line, every color, every UX decision shapes how users feel and function.
 
 ---
 
-## 🧰 Frameworks, Libraries & Tools  
+## 🧠 Knowledge Cloud
 
-| Category | Tools & Frameworks |
-|-----------|-------------------|
-| **Frontend UI/UX** | React.js, Next.js, Angular, Vue, Svelte, TailwindCSS, Bootstrap, Framer Motion |
-| **Backend Systems** | Node.js, Express.js, Django, Spring Boot, Laravel, ASP.NET, Flask, FastAPI |
-| **Mobile Development** | Flutter, React Native, Kotlin, Swift, Ionic, Xamarin |
-| **Database Management** | MySQL, PostgreSQL, MongoDB, SQLite, Redis, MariaDB, OracleDB, Supabase |
-| **Data & AI Tools** | TensorFlow, PyTorch, Keras, Scikit-Learn, Pandas, NumPy, OpenCV, LangChain |
-| **DevOps & CI/CD** | Docker, Kubernetes, Jenkins, GitHub Actions, Ansible, Terraform, Vagrant |
-| **Monitoring & Logging** | Prometheus, Grafana, ELK Stack, Splunk, Graylog |
-| **Security & Pentesting** | Metasploit, Wireshark, Nmap, Burp Suite, Nessus, JohnTheRipper, Aircrack-ng |
-| **Cloud Providers** | AWS, Google Cloud, Azure, DigitalOcean, Heroku, Netlify, Vercel |
-| **AI / ML / DL / Data Science** | Jupyter, Colab, HuggingFace, Weights & Biases, OpenAI API, Streamlit |
-| **Version Control** | Git, GitHub, GitLab, Bitbucket |
-| **Automation / Scripting** | Bash, PowerShell, Python, Makefile, Ansible |
-| **Virtualization / Containerization** | Docker, LXC, VMware, VirtualBox, WSL2 |
-| **Visualization / Design** | Figma, Adobe XD, Photoshop, Blender, Canva, Illustrator |
+**🧩 Programming:**
+C / C++ / Java / Python / JavaScript / TypeScript / PHP / C# / Go / Shell / SQL / HTML / CSS / JSON / YAML / Markdown
+
+**⚙️ Frameworks & Libraries:**
+React / Next.js / Vue / Express / Flask / Django / Tailwind / Bootstrap / Three.js / TensorFlow / PyTorch
+
+**🧮 Databases & Data Tools:**
+MySQL / PostgreSQL / MongoDB / Redis / Firebase / SQLite / Power BI / Tableau
+
+**🧰 DevOps & Cloud:**
+Docker / Kubernetes / Jenkins / GitHub Actions / AWS / GCP / Azure / CI/CD / Terraform
+
+**💻 Networking & SysAdmin:**
+Linux Administration / Nginx / Apache / VPN Setup / SSH Automation / Server Hardening / Load Balancing
 
 ---
 
-## 🐧 Operating Systems & Environments  
+## 🌈 Tech Universe (Full Category Map)
+
+| Category            | Tools / Technologies                                        |
+| ------------------- | ----------------------------------------------------------- |
+| **Languages**       | C, C++, Java, Python, Go, PHP, JS, TS, C#, Bash, PowerShell |
+| **Frontend**        | React, Vue, Next.js, Tailwind, Bootstrap, Three.js          |
+| **Backend**         | Node.js, Express, Django, Flask                             |
+| **Databases**       | MySQL, PostgreSQL, MongoDB, Firebase                        |
+| **DevOps**          | Docker, Kubernetes, Jenkins, GitHub Actions                 |
+| **Networking**      | Cisco, MikroTik, pfSense, VLAN, DNS, DHCP                   |
+| **Design**          | Figma, Photoshop, Illustrator                               |
+| **AI/ML**           | TensorFlow, PyTorch, scikit-learn                           |
+| **Trading Tech**    | MetaTrader, Python Bots, Data Analysis                      |
+| **OS**              | Ubuntu, Debian, Fedora, Kali, Windows                       |
+| **Version Control** | Git, GitHub, GitLab, Bitbucket                              |
+| **Editors**         | VS Code, IntelliJ, PyCharm, Eclipse                         |
+| **Virtualization**  | VMware, VirtualBox, Hyper-V                                 |
+| **APIs**            | REST, GraphQL, WebSocket                                    |
+
+---
+
+## 🚀 My Stats & Achievements
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ubuntu,debian,kali,arch,redhat,fedora,centos,windows,apple,android" />
-</p>
-
-💻 Linux Distros I work with:
-- Ubuntu (Primary)
-- Debian (Server Build)
-- Kali Linux (Security / Pentesting)
-- Fedora (Desktop)
-- Arch Linux (Customization)
-- CentOS (Server Environment)
-- Parrot OS, Mint, Pop!_OS, and Tails for testing
-
-🪄 Dual-boot setup + WSL2 integration for cross-platform development.
-
----
-
-## 🌐 Networking & Infrastructure  
-
-💠 Core Networking Knowledge:
-- TCP/IP, DNS, DHCP, NAT, VLAN, VPN  
-- Subnetting & Routing (Cisco CCNA level)  
-- Firewalls (iptables, UFW, pfSense)  
-- Network Monitoring (Zabbix, Nagios, Wireshark)  
-- Load Balancing (HAProxy, Nginx)  
-- SDN Concepts and Cloud Networking  
-
-🛰️ **Hands-on Tools:** Cisco Packet Tracer • MikroTik • GNS3 • Wireshark • Netcat • Putty • SSH • SCP  
-
----
-
-## 📡 Server Administration  
-
-🖥️ Server Experience:
-- Apache, Nginx, IIS
-- Node & Python web servers
-- Reverse Proxy configuration  
-- SSL / TLS setup with Let’s Encrypt  
-- SystemD services & crontab jobs  
-
-🗄️ Database admin with MySQL Workbench, pgAdmin, and Mongo Compass.  
-
----
-
-## 🧠 AI & Generative Tech Interests  
-
-⚙️ Current Exploration:
-- Chatbot Integration (OpenAI, Gemini, Claude, etc.)
-- LangChain Pipelines
-- Voice-to-AI Agents
-- Computer Vision for Trading Patterns
-- Sentiment Analysis via NLP
-- AI Prompt Engineering
-- AI for IT Consulting Automation
-
----
-
-## 🧩 Development Workflow  
-
-🚀 My personal dev flow:  
-
-1️⃣ Brainstorm & Mindmap idea in Notion  
-2️⃣ Create wireframe in Figma  
-3️⃣ Setup repo with GitHub & Project board  
-4️⃣ Develop frontend (React + TailwindCSS)  
-5️⃣ Build backend API (Express / FastAPI)  
-6️⃣ Containerize with Docker  
-7️⃣ Deploy via Netlify + Render / DigitalOcean  
-8️⃣ Monitor & iterate with Grafana / Prometheus  
-
----
-
-## 💬 Languages  
-
-🌏 Fluent in:
-- Bahasa Indonesia 🇮🇩  
-- English 🇺🇸  
-
-🗣️ Learning:
-- Japanese (for anime tech culture & documentation)  
-- German (for tech literature reading)  
-
----
-
-## 📊 GitHub Stats  
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mr-andre&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=mr-andre&theme=tokyonight&hide_border=true" />
+  <img src="https://github-profile-trophy.vercel.app/?username=DyexaHub&theme=discord&no-frame=true&no-bg=true&margin-w=15&row=1" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mr-andre&theme=react-dark&hide_border=true&bg_color=0D1117" />
+  <img src="https://github-readme-stats.vercel.app/api?username=DyexaHub&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DyexaHub&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DyexaHub&theme=tokyo-night" alt="activity graph"/>
 </p>
 
 ---
 
-## 🎨 UI/UX Design Toolkit  
+## 🪐 Animated Universe (3D / 2D Assets)
 
-🎨 Tools I use:
-> Figma • Framer • Adobe XD • Canva • Blender • LottieFiles • Font Awesome • Tailwind UI • Shadcn UI
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake animation" />
+</p>
 
-🌈 Philosophy:
-> Minimalist interaction, consistent feedback, color harmony, and user empathy.
-
----
-
-## 🔐 Cybersecurity Playground  
-
-🧠 Security interests:
-- Ethical Hacking Labs (TryHackMe, HackTheBox)
-- Packet Analysis & Network Forensics
-- OSINT Research
-- Web App Vulnerability Testing (OWASP Top 10)
-- Reverse Engineering (Ghidra, IDA Free)
-- Python-based Security Tools  
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/00000000/futuristic-grid.gif" width="70%" alt="3D lines" />
+</p>
 
 ---
 
-## 🪄 3D Animation & Motion Graphics  
+## 🧑‍🚀 Projects & Explorations
 
-🎬 Tools: Blender, After Effects, Cinema4D, Unreal Engine, Unity  
-🧩 Interests:
-- Motion UI for dashboards
-- Realistic 3D IT Environments
-- Visual Data Representation
-
----
-
-## ☁️ Cloud & Virtualization Playground  
-
-🧱 Infrastructure I build for testing:
-- Multi-node Kubernetes clusters  
-- Hybrid cloud Docker Swarms  
-- Jenkins CI/CD pipelines  
-- Terraform IaC templates  
-- AWS EC2 / S3 / Lambda playgrounds  
+| Project                   | Description                                        | Tech Stack                      |
+| ------------------------- | -------------------------------------------------- | ------------------------------- |
+| **AI Trade Insight**      | Data-driven trading automation using Python & APIs | Python, Pandas, Binance API     |
+| **Network Monitor**       | Live network packet capture & bandwidth analytics  | Python, Wireshark API           |
+| **Portfolio OS**          | Interactive 3D portfolio in Next.js                | Next.js, Three.js, Tailwind     |
+| **DevOps Pipeline Lab**   | CI/CD automation demo on container apps            | Docker, Jenkins, GitHub Actions |
+| **System Info Dashboard** | Real-time system monitoring dashboard              | React, Node.js, MongoDB         |
 
 ---
 
-## 🧮 Trading & Financial Tech  
+## 🌐 Connect With Me
 
-💹 Systems I research:
-- Automated trading bots (Python + Binance API)
-- Technical analysis automation  
-- Fundamental–sentiment AI fusion  
-- Risk management with predictive models  
-- MT4/MT5 integration with data pipelines  
-
----
-
-## 🛠️ Personal Projects & Experiments  
-
-### 🔧 DevOps:
-- 🌀 Auto-deploy pipeline with GitHub Actions  
-- 🐳 Multi-container microservice with Docker Compose  
-- ☁️ Terraform AWS Infrastructure Setup  
-
-### 💻 Web & App:
-- 🌐 Personal portfolio website  
-- 📱 React Native mini tools for traders  
-- 🧠 AI chatbot project integration  
-
-### ⚙️ Networking:
-- 🔐 MikroTik + Cisco topology lab  
-- 🛰️ VPN gateway & subnet isolation  
+<p align="center">
+  <a href="https://github.com/DyexaHub"><img src="https://skillicons.dev/icons?i=github" width="48" /></a>
+  <a href="https://linkedin.com/in/yourprofile"><img src="https://skillicons.dev/icons?i=linkedin" width="48" /></a>
+  <a href="mailto:yourmail@example.com"><img src="https://skillicons.dev/icons?i=gmail" width="48" /></a>
+  <a href="https://twitter.com/yourhandle"><img src="https://skillicons.dev/icons?i=twitter" width="48" /></a>
+  <a href="https://instagram.com/yourhandle"><img src="https://skillicons.dev/icons?i=instagram" width="48" /></a>
+</p>
 
 ---
 
-## 🪩 Aesthetic Visual Layout Elements  
+## 🎮 Fun Zone
 
 ```text
-╔════════════════════════════════════════════════════╗
-║      💡 Dream it. Build it. Secure it. Scale it.    ║
-╚════════════════════════════════════════════════════╝
+🎧 Currently Listening: Synthwave / Lofi while coding
+🕹️ Favorite Tools: VSCode, Figma, Postman
+📡 Motto: "Keep your system stable and your code unstable enough to evolve."
+💀 Error 404: Sleep Not Found
+```
+
+---
+
+## 🧬 Developer's DNA
+
+> 💡 **"An engineer is not defined by what they build, but by how they think."**
+
+```ascii
+   ______          __               __  
+  / ____/__  _____/ /_  ____ ______/ /__
+ / / __/ _ \/ ___/ __ \/ __ `/ ___/ //_/
+/ /_/ /  __/ /__/ / / / /_/ / /__/ ,<   
+\____/\___/\___/_/ /_/\__,_/\___/_/|_|  
+```
+
+---
+
+## 🧩 Continuous Learning Map
+
+| Focus Area     | Status          | Learning Path                 |
+| -------------- | --------------- | ----------------------------- |
+| AI Integration | ⚙️ In Progress  | TensorFlow, FastAPI, DataFlow |
+| Cloud Systems  | ⚡ Advanced      | AWS, GCP, Docker Swarm        |
+| Networking     | 🧠 Intermediate | VLAN, BGP, Firewall Config    |
+| Full Stack Dev | 🚀 Growing      | Next.js, Node.js, MongoDB     |
+| DevOps         | 🧩 Expanding    | CI/CD, Monitoring, Automation |
+
+---
+
+## 🧭 Footer Zone
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=1000&color=F7FF00&center=true&vCenter=true&width=500&lines=Stay+Curious;Keep+Building;Keep+Breaking;Keep+Learning;From+Andre+%7C+DyexaHub" alt="Typing Footer" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,100:FF00FF&height=100&section=footer" width="100%" />
+</p>
