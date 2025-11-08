@@ -145,14 +145,6 @@ Installing futuristic-modules... Done
 
 ---
 
-## 🔮 SKILL CONSTELLATION MAP
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ashutosh00710/github-readme-activity-graph/master/graph.png?username=DyexaHub&theme=react-dark" width="100%"/>
-</p>
-
----
-
 ## 🎨 DESIGN & UI/UX ZONE
 
 🧠 **Core Tools:**
@@ -160,14 +152,6 @@ Installing futuristic-modules... Done
 
 🎨 **Creative Concepts:**
 UI Motion | Neon Futurism | Cyberpunk Holography | Dark System Interface | Animated Tech Mockups | Fractal Design
-
----
-
-## 🪐 DYEXAHUB CONSTELLATION (LIVE 3D MAP)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DyexaHub/3d-constellation/main/galaxy.gif" width="90%">
-</p>
 
 ---
 
