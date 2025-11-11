@@ -30,7 +30,7 @@ from **machine logic to human experience**.
 
 ---
 
-## 🌐 CYBER HERO ZONE
+## 🌐 Cyber Zone
 
 <p align="center">
   <img src="https://i.ibb.co/D9gqP5T/neon-grid.gif" width="700" alt="neon grid animation"/>
