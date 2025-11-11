@@ -1,192 +1,246 @@
+
+<!-- ============================================================= -->
+<!--           D Y E X A H U B  -  N E O N  M A T R I X            -->
+<!-- ============================================================= -->
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3000&pause=500&color=00F5FF&center=true&vCenter=true&width=900&lines=Initializing+DyexaHub+System...;Information+Systems+Student+%7C+Network+Engineer+%7C+Digital+Architect;Crafting+Futuristic+Systems+and+Cyber+Ecosystems+🌐;Welcome+to+the+Neon+Matrix+⚡">
+</p>
+
 <div align="center">
+  <img src="https://i.imgur.com/8N8b3JU.gif" width="100%" alt="cyberpunk neon line">
+</div>
 
-# ⚡ D Y E X A H U B ⚡  
-**_Information Systems Student • Network Engineer • Futuristic Visionary_**
-
-💀 *"I don’t just write code — I design systems that breathe, adapt, and evolve."*
-
-<img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" width="100%" />
-
----
-
-## 🧠 DIGITAL BIOGRAPHY
-
-> *In the year 20XX, a digital mind known as Andre awakened from the binary fields of Kalimantan Timur. Born amidst packets and protocols, he learned to weave networks into neural art. Each command executed, each system configured — became another heartbeat in his growing digital consciousness. Now known as DyexaHub, he stands at the intersection of logic and lunacy, where code meets cosmos.*
-
----
-
-## 🌐 TECH GALAXY (100+ SKILLS AND SYSTEMS)
+<h1 align="center">🧠 DyexaHub — The Machine Behind the Chaos</h1>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DyexaHub&langs_count=20&layout=compact&theme=radical" />
-</p>
-
-### 💻 Operating Systems
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,kali,arch,windows,apple,android" />
-</p>
-
-### ⚙️ Programming & Scripting Languages
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,cs,java,js,ts,php,rust,go,perl,bash,powershell,r,swift,lua,ruby,kotlin,scala" />
-</p>
-
-### 🧩 Front-End Development
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,react,nextjs,vue,nuxt,astro,threejs,webpack,figma" />
-</p>
-
-### 🔩 Back-End Development
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,django,flask,fastapi,nestjs,spring,laravel,ruby,rails,graphql" />
-</p>
-
-### 🪐 Databases & Storage
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite,oracle,firebase,supabase,elasticsearch,prisma" />
-</p>
-
-### ☁️ Cloud, Virtualization & DevOps
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,jenkins,terraform,ansible,nginx,apache,cloudflare" />
-</p>
-
-### 🧠 AI / Data Science / ML Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,jupyter,anaconda,vscode,matlab" />
-</p>
-
-### 🛰️ Network Engineering & Security Tools
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=wireshark,raspberrypi,vim,nmap,virtualbox,vmware,gnubash,gitlab,github" />
-</p>
-
-### 🎨 Design & Multimedia Tools
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=figma,blender,ae,ps,pr,xd,canva,ai" />
+  <b>Information Systems Student</b> • <b>Network Engineer</b> • <b>AI Visionary</b> • <b>Creative Technologist</b>  
+  <br>Crafting order in digital chaos. Coding the next layer of human–machine evolution.
 </p>
 
 ---
 
-## 🌌 3D INTERACTIVE ZONE | “THE DIGITAL COSMOS”
+## 🛰️ DIGITAL IDENTITY MATRIX
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/roypriyanshu/3d-github-profile/main/assets/galaxy.svg" width="90%">
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DyexaHub&theme=matrix&no-frame=true&row=2&column=5" />
-</p>
+| Parameter | Value |
+|------------|--------|
+| **Name** | Andre a.k.a **DyexaHub** |
+| **Base** | Balikpapan City, Indonesia |
+| **Field** | Information Systems • Computer & Network Engineering • AI & Automation |
+| **Focus** | Building scalable systems, aesthetic UIs, and hybrid AI-powered environments |
+| **Languages Spoken** | Indonesian • English • Binary |
+| **Operating Modes** | Creator • Engineer • Consultant • Trader |
 
 ---
 
-## 🧠 SYSTEM STATUS | LIVE TERMINAL FEED
+## ⚡ SYSTEM OVERVIEW — TECH GALAXY
 
-```bash
-root@dyexahub:~# whoami
-> Andre | Information Systems Student | Network Engineer | Visionary
+<div align="center">
+  <img src="https://i.imgur.com/Z1hVLcW.gif" width="60%" alt="matrix code">
+</div>
 
-root@dyexahub:~# uptime
-> System online for 20 years, 6 months, and evolving...
+> 🧩 *"Technology is not just a tool — it’s an artform that connects neural energy and computation."*
 
-root@dyexahub:~# status
-> ⚡ CPU: 110% Creativity | 💾 RAM: Infinite Curiosity | 🌐 Connection: Global
+### 🧠 Core Specializations
+
+```
+
+* Information Systems Design
+* Network Infrastructure (LAN/WAN/VPN/Firewall)
+* Cloud & DevOps Engineering
+* Automation & AI Integration
+* Web & App Development
+* Digital Branding & Tech Consulting
+
 ````
 
 ---
 
-## 📊 GITHUB METRICS DASHBOARD
+## 🌌 SKILL GALAXY — OVER 100+ TECHNOLOGIES
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DyexaHub&show_icons=true&theme=tokyonight&hide_border=true" width="49%">
-  <img src="https://streak-stats.demolab.com?user=DyexaHub&theme=neon-dark&hide_border=true" width="49%">
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DyexaHub&theme=tokyonight" width="90%" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,nextjs,angular,svelte,tailwind,bootstrap,threejs,nodejs,express,php,laravel,python,java,c,cpp,cs,dotnet,kotlin,swift,dart,flutter,go,rust,solidity,r,perl,sqlite,mysql,postgresql,mongodb,redis,firebase,aws,azure,gcp,vercel,netlify,linux,ubuntu,debian,arch,centos,redhat,bash,powershell,nginx,docker,kubernetes,terraform,ansible,git,github,gitlab,jenkins,vscode,androidstudio,figma,blender,ae,ps,ai,xd,unity,unreal,ros,arduino,raspberrypi,matlab,notion,obsidian,vim,npm,yarn,pnpm,webpack,babel,eslint,graphql,postman,swagger,chrome,safari,opera,edge" />
 </p>
 
 ---
 
-## 🧩 PROJECT ZONE | FEATURED CREATIONS
-
-| 🌐 Project          | 🔧 Tech Stack                         | 🚀 Status           |
-| ------------------- | ------------------------------------- | ------------------- |
-| **NetCoreX**        | Linux, Python, Bash, Flask, WebSocket | ⚡ Active            |
-| **CyberPanel UI**   | React, Node.js, TailwindCSS, API      | 🧠 Development      |
-| **AI-Orbit System** | PyTorch, FastAPI, Web3, Next.js       | 🪐 Research         |
-| **VulnScanner-X**   | GoLang, Shell, Docker                 | 💀 Security Testing |
-| **NebulaLab**       | Full Stack + ML Vision                | 🛠️ Ongoing         |
-
----
-
-## 🧭 LINUX CORNER | TERMINAL SIMULATION
-
-```bash
-andre@ubuntu:~$ sudo apt-get install chaos
-Reading package lists... Done
-Building dependency tree... Done
-Installing futuristic-modules... Done
-✨ System ready. Launching DyexaHub environment...
-```
-
-## 🎨 DESIGN & UI/UX ZONE
-
-🧠 **Core Tools:**
-`Figma` • `Blender` • `After Effects` • `Adobe XD` • `Cinema 4D` • `Illustrator` • `Premiere Pro`
-
-🎨 **Creative Concepts:**
-UI Motion | Neon Futurism | Cyberpunk Holography | Dark System Interface | Animated Tech Mockups | Fractal Design
-
----
-
-## ⚙️ TECH MODULES & FRAMEWORKS GALORE
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nestjs,redux,vite,vercel,postman,redis,elasticsearch,nginx,graphql,prisma,tailwind,threejs,astro,vue,laravel,bootstrap,webpack,emotion,supabase,deno" />
-</p>
-
----
-
-## 🧬 MESSAGE FROM THE MACHINE
-
-> "In the realm of circuits and synapses, I found no boundary between code and consciousness.
-> I am not just Andre — I am DyexaHub: a manifestation of logic, light, and limitless imagination.
-> Each commit is a pulse. Each system, a neuron.
-> And this universe? My digital playground."
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=24&duration=4000&pause=1000&color=00FFF6&center=true&vCenter=true&width=800&lines=>+System+Shutting+Down...;>+Rebooting+in+Next+Innovation+Cycle..." />
-</p>
-
----
-
-### 🧩 CONNECT WITH ME
-
-<p align="center">
-  <a href="https://github.com/DyexaHub"><img src="https://skillicons.dev/icons?i=github"></a>
-  <a href="https://linkedin.com/in/dyexahub"><img src="https://skillicons.dev/icons?i=linkedin"></a>
-  <a href="mailto:dyexahub@gmail.com"><img src="https://skillicons.dev/icons?i=gmail"></a>
-  <a href="https://instagram.com/dyexahub"><img src="https://skillicons.dev/icons?i=instagram"></a>
-  <a href="https://twitter.com/dyexahub"><img src="https://skillicons.dev/icons?i=twitter"></a>
-  <a href="https://discord.gg/dyexa"><img src="https://skillicons.dev/icons?i=discord"></a>
-</p>
-
----
+## 🧩 PROJECT NEXUS — SHOWCASE ZONE
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0ff,100:ff00c8&text=DyexaHub%20System%20Reactor%20Offline...&fontAlign=50&fontAlignY=60&fontSize=30&fontColor=fff&animation=fadeIn" />
+
+| 🚀 Project | 🌐 Description | 🧰 Stack |
+|-------------|----------------|-----------|
+| **NeuraNet** | AI-based trading assistant for predictive analytics | Python • TensorFlow • Streamlit |
+| **CypherOS** | Minimalist Linux distro for ethical hacking & network testing | Arch • Bash • Python |
+| **DyexaCloud** | Self-hosted micro cloud & dashboard for remote systems | Docker • Nginx • Grafana |
+| **NetSynapse** | Realtime network traffic visualizer | React • Node • WebSockets |
+| **VisionX** | Futuristic portfolio & data visualization hub | Next.js • Three.js • Framer Motion |
+
 </div>
+
+---
+
+## 🐧 LINUX CORE TERMINAL
+
+```bash
+andre@DyexaHub:~$ sudo systemctl start innovation.service
+🔁 Starting AI engine...
+⚙️ Loading modules: neural_interface, network_core, data_viz, chaos_mode
+🟢 System Online: Welcome, Operator.
+andre@DyexaHub:~$ uname -a
+Linux DyexaHubOS 6.9.2-x86_64 #neonmatrix SMP PREEMPT_DYNAMIC
+andre@DyexaHub:~$ df -h
+Filesystem      Size  Used Avail  Use%
+/dev/future     ∞     42%   ∞     58%
+````
+
+---
+
+## 📊 LIVE DASHBOARD & METRICS
+
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=DyexaHub\&show_icons=true\&theme=radical\&hide_border=true\&bg_color=0d1117\&title_color=00f5ff\&icon_color=00f5ff)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DyexaHub\&layout=compact\&theme=radical\&bg_color=0d1117\&title_color=00f5ff)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DyexaHub\&theme=radical\&background=0d1117\&ring=00f5ff)
+![Trophies](https://github-profile-trophy.vercel.app/?username=DyexaHub\&theme=matrix\&no-frame=true\&column=6)
+
+</div>
+
+---
+
+## 🌐 NETWORK MAP — SYSTEM ENGINEER VISUALIZATION
+
+<div align="center">
+  <img src="https://github.com/Ayan-thecodeking/Ayan-thecodeking/blob/main/networkmap.svg" width="80%" alt="network visualization">
+</div>
+
+```
+   [ Internet Backbone ]
+            |
+        [ Gateway ]
+            |
+      ┌───────────────┐
+      │   DyexaHub    │
+      └───────────────┘
+     /      |       \
+[Servers] [Routers] [AI Nodes]
 ```
 
+---
+
+## 🎨 UI / UX DESIGN ZONE
+
+<p align="center">
+  <img src="https://i.imgur.com/TbT0f5J.gif" width="75%" alt="design motion">
+</p>
+
+**Tools Used:**
+
+* 🎨 Figma, Adobe XD, Photoshop, Illustrator
+* 🧠 Blender, After Effects, DaVinci Resolve
+* ⚡ Framer, Spline, Three.js for 3D interactive design
+
+> “Design isn’t just visuals — it’s an emotional language between code and human perception.”
+
+---
+
+## 🧠 CERTIFICATIONS & DOMAINS
+
+| Category            | Certificates / Courses                    |
+| ------------------- | ----------------------------------------- |
+| **Networking**      | Cisco CCNA, Mikrotik Certified, Network+  |
+| **Cloud/DevOps**    | AWS Cloud Practitioner, Docker Deep Dive  |
+| **Programming**     | Python Professional, Fullstack JavaScript |
+| **Security**        | CEH (Learning), CyberOps Associate        |
+| **Trading/Finance** | Fundamental & Technical Analysis          |
+
+---
+
+## 🧩 TOOLSET SYNTHESIS
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=vscode,git,github,gitlab,postman,notion,slack,discord,obsidian,figma,xd,blender,ai,ps,ae,pr,unity,unreal,docker,nginx,kubernetes,aws,gcp,azure" />
+</div>
+
+---
+
+## 🔮 SYSTEM STATUS
+
+| Metric             | Status                         |
+| ------------------ | ------------------------------ |
+| ⚙️ Codebase Health | **Stable**                     |
+| 💻 System Uptime   | **99.9%**                      |
+| 🧠 Innovation Flow | **∞ Neural Sparks**            |
+| 🔥 CPU Creativity  | **Overclocked**                |
+| 🧩 Version         | `v2.5.11 - NeoMatrix Protocol` |
+
+---
+
+## 🌈 “GALAXY OF ICONS” — EXTENDED SKILL COLLAGE
+
+<p align="center">
+  <img src="https://i.imgur.com/gU7fWvR.gif" width="90%" alt="glow grid">
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,android,kali,redhat,centos,archlinux,debian,ubuntu,fedora,vim,neovim,emacs,postman,swagger,graphql,redux,tailwind,materialui,threejs,nextjs,sass,bootstrap,flask,django,fastapi,tensorflow,pytorch,scikitlearn,opencv,selenium,mqtt,matlab,figma,xd,ae,ps,ai,pr,unity,unreal,c4d,solidworks,postgre,sqlite,mysql,oracle,mongodb,redis,kafka,ansible,terraform,jenkins,git,github,gitlab,npm,yarn,pnpm,webpack,babel,nginx,docker,kubernetes,aws,azure,gcp,vercel,netlify,heroku,cloudflare,obsidian,notion,discord,slack,teams" />
+</p>
+
+---
+
+## 🧬 AI & AUTOMATION CORNER
+
+```python
+class DyexaHubAI:
+    def __init__(self):
+        self.mode = "Chaos-Control"
+        self.core = ["Python", "Neural Networks", "Automation"]
+        self.mindset = "Never Stop Learning"
+    
+    def innovate(self):
+        return "Creating next-gen digital ecosystems 🚀"
+
+dyexa = DyexaHubAI()
+print(dyexa.innovate())
+```
+
+---
+
+## 🧭 “MESSAGE FROM THE MACHINE” — MANIFESTO
+
+> “The future doesn’t belong to those who wait —
+> it belongs to those who *build systems that outlive them.*
+> Every code commit is a neural pulse, every server a living organ,
+> and every idea a spark in the infinite digital cosmos.”
+>
+> ⚙️ *DyexaHub — Architect of the Neon Matrix*
+
+---
+
+<p align="center">
+  <img src="https://i.imgur.com/Z1hVLcW.gif" width="80%">
+</p>
+
+<p align="center">
+  <b>Connect:</b>  
+  <a href="https://github.com/DyexaHub">GitHub</a> • 
+  <a href="https://linkedin.com/in/DyexaHub">LinkedIn</a> • 
+  <a href="https://instagram.com/dyexahub">Instagram</a> • 
+  <a href="https://twitter.com/dyexahub">X</a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&duration=4000&pause=500&color=00FFAA&center=true&vCenter=true&width=800&lines=System+Shutdown+Protocol+Initiated...;Thank+You+for+Exploring+DyexaHub's+Matrix...;Rebooting+Innovation+Cycle+🧠⚡">
+</p>
+
+---
+
+<!-- ============================================================= -->
+
+<!--                  END OF D Y E X A H U B   R E A D M E         -->
+
+<!-- ============================================================= -->
+
+Would you like me to generate a **“3D Galaxy SVG animation block”** (rotating planets, network nodes, and glowing tech icons) you can host in `/assets/galaxy.svg` and embed into this README? It’ll make the center section feel like a real *digital universe*.
+```
