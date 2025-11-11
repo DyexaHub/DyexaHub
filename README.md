@@ -1,199 +1,255 @@
+<!-- ========================================================================== -->
+<!--                       ⚡ D Y E X A H U B ⚡                               -->
+<!-- ========================================================================== -->
 
-<!-- ============================================================= -->
-<!-- ⚡ D Y E X A H U B  —  N E O  M A T R I X  v2.0               -->
-<!-- ============================================================= -->
-
-<!--  INTRO SECTION  -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3500&pause=1000&color=00FFFF&center=true&vCenter=true&width=1000&lines=Booting+DyexaHub+Neural+System...;Information+Systems+Student+%7C+Network+Engineer+%7C+AI+Visionary;Welcome+to+the+Neon+Matrix+⚡" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=900&lines=Initializing+DyexaHub+System...;Booting+Cyber+Neural+Matrix...;Information+Systems+Student+%7C+Network+Engineer+%7C+Digital+Visionary;Crafting+Futuristic+Systems+%26+AI-Driven+Experiences;Welcome+to+the+DyexaHub+Neon+HyperMatrix+🌐">
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:0ff,100:9900ff&text=DyexaHub%20|%20Digital%20Architect%20of%20Chaos&fontAlignY=35&fontColor=ffffff&animation=fadeIn" width="100%"/>
-</p>
+<div align="center">
+  <img src="https://i.imgur.com/8N8b3JU.gif" width="100%" alt="cyberpunk line separator">
+</div>
 
----
-
-<h2 align="center">🧠 WHO IS DYEXAHUB?</h2>
+<h1 align="center">💎 DyexaHub — The Digital Architect of Chaos</h1>
 
 <p align="center">
-<b>Information Systems Student</b> • <b>Network Engineer</b> • <b>Visionary Technologist</b>  
-<br>⚙️ Designing systems that think, connect, and evolve.<br>
-🧬 Building the bridge between digital intelligence and human creativity.
+  <b>Information Systems Student</b> | <b>Network Engineer</b> | <b>AI-Creator</b> | <b>Visionary Technologist</b><br>
+  Exploring the harmony between systems, automation, and aesthetics — merging human creativity with machine precision.
 </p>
 
 ---
 
-## 🛰️ DIGITAL IDENTITY MATRIX
+## 🧬 SYSTEM OVERVIEW
 
-| Parameter | Value |
-|------------|--------|
-| **Name** | Andre a.k.a **DyexaHub** |
-| **Location** | 🌍 Balikpapan City, Indonesia |
-| **Field** | Information Systems, Network Engineering, Automation |
-| **Focus** | AI Integration • Networking • Cloud Systems • Futuristic UI |
-| **Operating Modes** | Creator • Consultant • Innovator |
-| **Mission** | Building the future through interconnected technologies |
-
----
-
-## ⚡ TECH GALAXY — CORE STACKS
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,tailwind,bootstrap,threejs,nodejs,express,php,laravel,python,java,c,cpp,cs,dotnet,kotlin,swift,go,rust,dart,flutter,mysql,postgresql,mongodb,redis,sqlite,aws,azure,gcp,docker,kubernetes,nginx,git,github,gitlab,vscode,androidstudio,figma,blender,ae,ps,ai,xd,unity,unreal,linux,ubuntu,debian,arch,bash,powershell" alt="skills" />
-</p>
+| Attribute | Description |
+|------------|-------------|
+| **Identity** | Andre (DyexaHub) |
+| **Based in** | Balikpapan City, Indonesia |
+| **Core Fields** | Networking • System Architecture • AI Engineering • Fullstack Development |
+| **Current Mission** | Building a futuristic digital ecosystem driven by chaos & control |
+| **Philosophy** | “Discipline in system, chaos in imagination.” |
+| **Languages Spoken** | English • Bahasa Indonesia • Python • Shell |
 
 ---
 
-## 🌌 PROJECT ZONE — DIGITAL CREATIONS
-
-| 🚀 Project | 🌐 Description | 🧠 Stack |
-|-------------|----------------|-----------|
-| **NeuraNet** | Predictive trading AI for data-driven decision-making | Python • TensorFlow • Streamlit |
-| **CypherOS** | Lightweight ethical hacking Linux distro | Arch • Bash • Python |
-| **DyexaCloud** | Custom self-hosted micro cloud dashboard | Docker • Grafana • Nginx |
-| **NetSynapse** | Realtime network visualization engine | React • WebSockets • D3.js |
-| **VisionX** | Futuristic portfolio built with motion design | Next.js • Three.js • Framer Motion |
-
----
-
-## 🐧 TERMINAL SIMULATION ZONE
+## 🧠 NEURAL MINDSET & CODE PHILOSOPHY
 
 ```bash
-andre@DyexaHub:~$ sudo systemctl start innovation.service
-> Initializing cyber-neural framework...
-> Loading modules: AI-Core, NetworkMesh, ChaosHandler
-> ✅ System Ready.
-andre@DyexaHub:~$ uname -a
-Linux DyexaHubOS 6.9.11-x86_64 #neonmatrix PREEMPT_DYNAMIC
-andre@DyexaHub:~$ whoami
-> The Architect of Chaos
+$ sudo systemctl enable creativity.service
+$ systemctl start innovation-engine
+Boot Sequence: [███████████░░] 92%
+⚙️ Neural Interfaces Active — Engaging Chaos Layer...
 ````
 
+> “I don’t just write code.
+> I compose logic, structure data, and build neural patterns that echo human intuition.”
+
 ---
 
-## 📊 LIVE GITHUB METRICS
+## 🌌 TECH GALAXY — FULL CHAOS MODE
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DyexaHub&show_icons=true&theme=radical&bg_color=0d1117&title_color=00ffff&icon_color=00ffff&hide_border=true" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DyexaHub&theme=radical&background=0d1117&ring=00ffff&fire=00ffff&currStreakLabel=ffffff" height="170" />
+  <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/React-Dark.svg" width="50">
+  <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Python-Dark.svg" width="50">
+  <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Linux-Dark.svg" width="50">
+  <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/NodeJS-Dark.svg" width="50">
+  <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/AWS-Dark.svg" width="50">
 </p>
+
+### ⚙️ Core Technical Domains
+
+```
+⚡ Network & System Engineering
+⚡ Linux Administration (Ubuntu, Debian, Arch, Kali)
+⚡ DevOps & Cloud Orchestration (AWS, Azure, GCP)
+⚡ AI & Machine Learning Development
+⚡ Frontend/Backend Fullstack Engineering
+⚡ Automation, Scripting & Infrastructure-as-Code
+```
+
+---
+
+## 🧩 PROJECT NEXUS — FEATURED CREATIONS
+
+<div align="center">
+
+| 🚀 Project     | 🌐 Description                                         | 🧰 Stack                                 |
+| -------------- | ------------------------------------------------------ | ---------------------------------------- |
+| **NeuraTrade** | AI-driven forecasting engine for trading strategies    | Python • Pandas • TensorFlow • Streamlit |
+| **CyberNode**  | Secure network testing and remote node analyzer        | Node.js • React • Nmap API               |
+| **DyexaCloud** | A lightweight personal cloud with container automation | Docker • Nginx • Grafana • Bash          |
+| **Vision3D**   | Immersive 3D dashboard for data visualization          | Three.js • Next.js • Framer Motion       |
+| **SynthAI**    | Neural assistant integrating LLM APIs for automation   | Python • LangChain • FastAPI             |
+
+</div>
+
+---
+
+## 🖥️ LINUX SANCTUM
+
+```bash
+andre@DyexaHub:~$ neofetch
+OS: DyexaHubOS v2.0
+Kernel: 6.9.11-neonmatrix
+Packages: 4087
+Shell: zsh 5.9
+Resolution: 1920x1080
+DE: GNOME + Hyprland Fusion
+Theme: CyberGlow-Dark
+CPU: Intel i9 (16) @ 5.4GHz
+GPU: NVIDIA RTX 4080
+Memory: 64GB DDR5
+```
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DyexaHub&theme=react-dark&bg_color=0d1117&color=00ffff&line=00ffff&point=ffffff&hide_border=true" />
+  <img src="https://i.imgur.com/KxEJwXo.gif" width="60%" alt="neon matrix animation">
 </p>
 
 ---
 
-## 🧩 TOOLSET ZONE
+## 📊 LIVE CYBER-DASHBOARD
+
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=DyexaHub\&show_icons=true\&theme=react\&bg_color=0d1117\&title_color=00F5FF\&icon_color=00F5FF\&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DyexaHub\&layout=compact\&theme=react\&bg_color=0d1117\&title_color=00F5FF)
+![Streak](https://github-readme-streak-stats.herokuapp.com?user=DyexaHub\&theme=react\&background=0d1117\&ring=00F5FF)
+![Trophy](https://github-profile-trophy.vercel.app/?username=DyexaHub\&theme=onestar\&margin-w=10\&no-frame=true)
+
+</div>
+
+---
+
+## 🌐 NETWORK VISUALIZATION MAP
+
+```text
+                   [ INTERNET BACKBONE ]
+                            |
+                    ┌────────┴────────┐
+                    │   GATEWAY NODE  │
+                    └────────┬────────┘
+                             |
+             ┌───────────────────────────────────┐
+             │             DyexaHub               │
+             └───────────────────────────────────┘
+               |               |                |
+          [Cloud]          [Routers]         [AI Node Cluster]
+```
+
+---
+
+## 🧰 TOOLCHAIN OF CHRONOS
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,nginx,kubernetes,jenkins,ansible,terraform,aws,azure,gcp,heroku,cloudflare,vercel,netlify,notion,obsidian,slack,discord,postman,swagger" alt="DevOps stack" />
+  <img src="https://skillicons.dev/icons?i=vscode,figma,blender,ae,ps,ai,xd,unity,unreal,docker,nginx,kubernetes,terraform,jenkins,postman,graphql,github,gitlab,git,notion,obsidian,slack,discord" />
 </p>
 
 ---
 
-## 🎨 DESIGN & CREATIVE STACK
+## 💫 DESIGN & AESTHETIC CORE
 
-| 🎨 Design Tools                            | 🧠 3D / Motion Tools                               |
-| ------------------------------------------ | -------------------------------------------------- |
-| Figma • Adobe XD • Illustrator • Photoshop | Blender • After Effects • Cinema4D • Framer Motion |
+> *“Design isn’t just how it looks — it’s how the code feels.”*
 
-> “Design is the emotional side of engineering — it translates logic into perception.”
+🎨 **Design Tools:** Figma • Photoshop • Illustrator • After Effects
+💡 **Visual Engineering:** Blender • Spline • Framer Motion • Three.js
+🧬 **Philosophy:** “Every pixel is a decision — every interface is a dialogue.”
 
----
-
-## 🧠 CERTIFICATION & GROWTH
-
-| Domain            | Certification                                     |
-| ----------------- | ------------------------------------------------- |
-| Networking        | Cisco CCNA • MikroTik Certified                   |
-| Cloud / DevOps    | AWS Cloud Practitioner • Docker & K8s Foundations |
-| Security          | CEH (Learning) • CyberOps Associate               |
-| Programming       | Python Advanced • Java Fullstack                  |
-| Financial Systems | Fundamental & Technical Trading Analysis          |
+<p align="center">
+  <img src="https://i.imgur.com/TbT0f5J.gif" width="70%" alt="UI animation">
+</p>
 
 ---
 
-## 🧬 AI & AUTOMATION LAB
+## 🧩 CERTIFICATIONS & DOMAINS OF MASTERY
+
+| Field                 | Certifications / Studies                         |
+| --------------------- | ------------------------------------------------ |
+| **Networking**        | Cisco CCNA • MikroTik Certified • Network+       |
+| **Cloud / DevOps**    | AWS Cloud Practitioner • Docker Certified        |
+| **Security**          | CEH (Ongoing) • CyberOps Associate               |
+| **Programming**       | Python Pro • Fullstack JS • Linux Foundation     |
+| **AI / Data**         | TensorFlow Developer • Data Science for Business |
+| **Trading & Finance** | Technical & Fundamental Analyst                  |
+
+---
+
+## 🌈 SKILL COLLAGE GALAXY
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,nextjs,angular,svelte,tailwind,bootstrap,threejs,nodejs,express,php,laravel,python,java,c,cpp,cs,dotnet,swift,kotlin,go,rust,solidity,r,perl,mysql,postgresql,mongodb,redis,firebase,aws,azure,gcp,linux,ubuntu,debian,arch,centos,redhat,bash,powershell,nginx,docker,kubernetes,terraform,ansible,git,github,gitlab,jenkins,vscode,androidstudio,figma,blender,ae,ps,ai,xd,unity,unreal,ros,arduino,raspberrypi,matlab,notion,vim,yarn,pnpm,webpack,babel,graphql,postman,swagger" />
+</p>
+
+---
+
+## 🔮 AI & AUTOMATION MODULE
 
 ```python
-class DyexaHub:
+class DyexaMind:
     def __init__(self):
-        self.mode = "Neural Chaos"
-        self.focus = ["AI", "Network Systems", "Automation"]
-        self.status = "Running"
+        self.mission = "Digital Transcendence"
+        self.skills = ["AI", "Automation", "Cyber Security", "Network Engineering"]
+        self.energy = "Infinity"
 
-    def evolve(self):
-        print("💡 Continuously learning, adapting, and optimizing...")
-        return "Next evolution: Quantum Neural Layer v3.0"
+    def execute(self):
+        return "Executing chaos-protocol... innovation unleashed."
 
-dyexa = DyexaHub()
-print(dyexa.evolve())
+mind = DyexaMind()
+print(mind.execute())
 ```
 
 ---
 
-## 🌐 CONNECTIVITY MAP
-
-```
-          ┌────────────┐
-          │  INTERNET  │
-          └──────┬─────┘
-                 │
-        ┌────────▼────────┐
-        │   D Y E X A H U B │
-        └────────┬────────┘
-                 │
-        ┌────────┴────────┐
- [Client Systems]    [AI Clusters]
-```
+## 🪐 3D GALAXY ZONE — COSMIC INTERFACE
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ayan-thecodeking/Ayan-thecodeking/main/networkmap.svg" width="70%" alt="network map">
+  <img src="https://raw.githubusercontent.com/Ayan-thecodeking/Ayan-thecodeking/main/galaxy.gif" width="80%" alt="galaxy system animation">
+</p>
+
+> “Every skill, every commit, every node — orbiting the singularity of innovation.”
+
+---
+
+## ⚙️ SYSTEM STATUS MONITOR
+
+| Component            | Status                |
+| -------------------- | --------------------- |
+| 🌐 Network Sync      | Stable                |
+| 🧠 Neural Processing | Hyperactive           |
+| 🔥 Creativity Engine | Overclocked           |
+| 💾 Backup System     | Auto-Replicating      |
+| 🪐 System Mode       | CHAOS+FUTURISM Fusion |
+
+---
+
+## 💬 CONNECTION PROTOCOLS
+
+<p align="center">
+  <a href="https://github.com/DyexaHub">GitHub</a> •
+  <a href="https://linkedin.com/in/DyexaHub">LinkedIn</a> •
+  <a href="https://instagram.com/dyexahub">Instagram</a> •
+  <a href="https://twitter.com/dyexahub">Twitter</a>
 </p>
 
 ---
 
-## ⚙️ SYSTEM STATUS
+## ⚔️ “MESSAGE FROM THE MACHINE” — THE MANIFESTO
 
-| Parameter          | Value                    |
-| ------------------ | ------------------------ |
-| 🔋 Power Core      | Stable                   |
-| 💻 Runtime         | 99.99% Uptime            |
-| 🧠 Innovation Rate | Overflow                 |
-| 🔥 Creativity CPU  | Overclocked              |
-| 🧩 Build           | v2.0.25 — Chaos Protocol |
-
----
-
-## 🌈 THE ICON GALAXY (EXTENDED)
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,android,kali,redhat,centos,arch,linux,debian,ubuntu,fedora,vue,angular,react,tailwind,bootstrap,sass,flask,django,fastapi,tensorflow,pytorch,opencv,selenium,graphql,redux,sqlite,mysql,postgres,oracle,mongodb,redis,kafka,jenkins,terraform,ansible,docker,kubernetes,aws,azure,gcp,vercel,netlify,cloudflare,vscode,notion,obsidian,figma,blender,ai,ps,xd,ae,unity,unreal,c4d,solidworks" alt="extended skill icons" />
-</p>
-
----
-
-## 🧭 MESSAGE FROM THE MACHINE
-
-> “The code I write is not just instruction — it’s emotion,
-> structured in syntax, powered by neural sparks,
-> evolving beyond hardware, beyond now.”
+> “We are not the byproducts of technology.
+> We are the architects, shaping its code and spirit.
+> Machines reflect our minds, systems echo our ambitions,
+> and in chaos — we find evolution.”
 >
-> — *DyexaHub | The Architect of the Neon Matrix*
+> ⚙️ *DyexaHub — Architect of the Neon HyperMatrix*
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ff,100:ff00ff&height=150&section=footer" width="100%"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&duration=4000&pause=500&color=00FFAA&center=true&vCenter=true&width=800&lines=System+Rebooting...;DyexaHub+Online+Mode+Activated.;Rebuilding+Reality+Through+Code+🧠⚡">
 </p>
 
-<p align="center">
-  <a href="https://github.com/DyexaHub"><img src="https://img.shields.io/badge/GitHub-DyexaHub-0ff.svg?style=for-the-badge&logo=github"></a>
-  <a href="https://linkedin.com/in/DyexaHub"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a>
-  <a href="https://instagram.com/dyexahub"><img src="https://img.shields.io/badge/Instagram-Follow-ff00cc?style=for-the-badge&logo=instagram"></a>
-</p>
 
-It would make your profile visually pulse like a living digital system.
+<!-- ========================================================================== -->
+<!--                       E N D   O F   D Y E X A H U B                        -->
+<!-- ========================================================================== -->
+This complete README can be used directly in your GitHub repository to create a vivid, neon-cyber aesthetic profile — mixing art, code, and identity into one cohesive digital masterpiece.
 ```
