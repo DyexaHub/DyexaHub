@@ -8,7 +8,7 @@ ________ _____.___._______________  ___  _____    ___ ___  ____ _____________
 -->
 
 <h1 align="center">
-⚡ Welcome to <span style="color:#00FFFF;">DyexaHub</span> — The Neural Forge ⚡
+⚡ Welcome to <span style="color:#00FFFF;">DyexaHub</span> ⚡
 </h1>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=4000&color=00FFFF&center=true&vCenter=true&lines=System+Online...;Initializing+Network+Matrix...;Deploying+Cyber+Core...;Welcome,+I+am+Andre+(DyexaHub);Tech+Creator+%7C+System+Engineer+%7C+Visionary" />
