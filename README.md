@@ -235,6 +235,3 @@ print(core.execute())
 <!-- ============================================================= -->
 <!--                     E N D  O F  F I L E                       -->
 <!-- ============================================================= -->
-
-Would you like me to craft the **external “3D Galaxy SVG”** (rotating network planets) you can upload into an `/assets/galaxy.svg` and embed at the top of this README for a real 3D illusion?
-```
