@@ -43,7 +43,7 @@ $ whoami
 > Andre | DyexaHub | System Entity
 
 $ uptime
-> Online since 2003 | Evolving daily
+> Online since 2006 | Evolving daily
 
 $ skills --load-all
 > 100% chaos-driven, 100% structured precision
