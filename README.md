@@ -146,11 +146,9 @@ $ skills --load-all
 
 ---
 
-## 🛰️ NETWORK VISUALIZATION — The Cyber Grid
+## 🛰️ GRAPHIC VISUALIZATION — The Cyber Graph
 
-<p align="center">
-  <img src="https://github.com/ashutosh00710/github-readme-activity-graph/raw/master/graph.svg" alt="activity graph"/>
-</p>
+[![Drey's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dyexahub&theme=react-dark)](https://github.com/dyexahub/github-readme-activity-graph)
 
 ---
 
@@ -178,7 +176,6 @@ $ skills --load-all
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=DyexaHub&color=00FFFF&label=Visitors" alt="Profile views"/>
-  <img src="https://wakatime.com/badge/user/yourid.svg" alt="Coding Time"/>
 </p>
 
 ---
