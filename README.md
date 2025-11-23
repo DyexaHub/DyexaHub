@@ -55,7 +55,7 @@ $ skills --load-all
 ### 💻 Programming Languages
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,html,css,php,go,rust,kotlin,swift,cs,ruby,lua,scala,perl,haskell" />
+<img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,html,css,php,go,rust,kotlin,cs,ruby,lua,scala,perl,haskell" />
 </p>
 
 ---
@@ -63,7 +63,7 @@ $ skills --load-all
 ### ⚙️ Frameworks & Libraries
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,nodejs,express,flask,django,spring,fastapi,laravel,astro,threejs,tailwind,bootstrap,redux,jquery,flutter,qt,opencv" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,nodejs,express,flask,django,fastapi,laravel,astro,threejs,tailwind,bootstrap,redux,jquery,flutter,qt,opencv" />
 </p>
 
 ---
@@ -111,7 +111,7 @@ $ skills --load-all
 ### 🎨 UI/UX Design & Media Production
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=figma,afinity,canva" />
+<img src="https://skillicons.dev/icons?i=figma" />
 </p>
 
 ---
