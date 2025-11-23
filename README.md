@@ -11,19 +11,19 @@ ________ _____.___._______________  ___  _____    ___ ___  ____ _____________
 ⚡ Welcome to <span style="color:#00FFFF;">DyexaHub</span> ⚡
 </h1>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=4000&color=00FFFF&center=true&vCenter=true&lines=System+Online...;Initializing+Network+Matrix...;Deploying+Cyber+Core...;Welcome,+I+am+Andre+(DyexaHub);Tech+Creator+%7C+System+Engineer+%7C+Visionary" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=4000&color=00FFFF&center=true&vCenter=true&lines=System+Online...;Initializing+Network+Matrix...;Deploying+Cyber+Core...;Welcome,+I+am+Dyexa+(DyexaHub);Tech+Creator+%7C+System+Engineer+%7C+Visionary" />
 </p>
 
 ---
 
 > **"Code is not just logic — it’s consciousness in motion."**
 
-Hello, traveler. I’m **Andre**, known across the grid as **DyexaHub** —  
-a multidisciplinary technologist blending **Information Systems**, **Computer Networks**, and **Futuristic System Design**.  
+Hello, traveler. I’m **Dyexa**, known across the grid as **DyexaHub** —  
+a multidisciplinary technologist blending **Information Systems** and **Computer Networks**.  
 Born in the digital age, raised by the chaos of open-source. My realm spans from **packet flows to pixel-perfect UIs**,  
 from **machine logic to human experience**.  
 
-- 🎓 Information Systems student | **Universitas Mulia, Balikpapan**  
+- 🎓 Information Systems student | **Mulia University**  
 - 💻 Network & System Engineer | **Linux-First Philosophy**  
 - ⚙️ Passion: Crafting scalable systems, intelligent automations, and digital ecosystems  
 - 🧩 Philosophy: *Tech is an art form. Code is design. Network is life.*
@@ -40,7 +40,7 @@ from **machine logic to human experience**.
 
 ```bash
 $ whoami
-> Andre | DyexaHub | System Entity
+> root | DyexaHub | System Entity
 
 $ uptime
 > Online since 2006 | Evolving daily
@@ -61,7 +61,7 @@ $ skills --load-all
 ### 💻 Programming Languages
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,html,css,php,go,rust,kotlin,swift,bash,powershell,cs,ruby,lua,scala,perl,haskell" />
+<img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,html,css,php,go,rust,kotlin,swift,cs,ruby,lua,scala,perl,haskell" />
 </p>
 
 ---
@@ -74,7 +74,7 @@ $ skills --load-all
 
 ---
 
-### 🧠 Artificial Intelligence / Machine Learning
+### 🧠 Machine Learning
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,keras,mlflow,matlab,jupyter" />
@@ -85,7 +85,7 @@ $ skills --load-all
 ### ☁️ Cloud, DevOps & Infrastructure
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,ansible,jenkins,terraform,nginx,apache,gitlab,vercel,heroku,netlify,cloudflare" />
+<img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,ansible,jenkins,nginx,apache,gitlab,vercel,netlify,cloudflare" />
 </p>
 
 ---
@@ -119,7 +119,7 @@ $ skills --load-all
 ### 🎨 UI/UX Design & Media Production
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=figma,blender,photoshop,illustrator,xd,aftereffects,premiere,canva" />
+<img src="https://skillicons.dev/icons?i=figma,afinity,canva" />
 </p>
 
 ---
@@ -162,7 +162,6 @@ $ skills --load-all
 | **SysFlow**       | Automated system monitor for Linux servers    | Bash, Python, Grafana, Prometheus  |
 | **NetForge**      | Network topology simulator for education      | JS, React, WebGL, Socket.IO        |
 | **HoloUI**        | Cyberpunk dashboard template for developers   | HTML, CSS, Three.js                |
-| **RFB Education** | Trading & business platform education content | HTML, CSS, Bootstrap, JS           |
 
 ---
 
@@ -184,7 +183,7 @@ $ skills --load-all
 
 ---
 
-## 🎛️ SYSTEM STATUS & LIVE FEED
+## 🎛️ SYSTEM STATUS
 
 ```bash
 $ system.status
@@ -200,11 +199,10 @@ $ system.status
 
 * 🎨 **3D Creation:** Blender, Figma, After Effects
 * 🧩 **Motion Design:** WebGL, Three.js, LottieFiles
-* 💡 **Concepts:** Cyber Futurism, Neon UX, Terminal UI, Holographic Aesthetic
 
 ---
 
-## 🧭 PHILOSOPHY OF CHAOS
+## 🧭 PHILOSOPHY
 
 > “Perfection is sterile — chaos births innovation.”
 > Every system I build reflects the balance between order and entropy.
@@ -214,11 +212,11 @@ $ system.status
 
 ## 📡 SOCIAL NETWORKS
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin\&logoColor=white)](https://linkedin.com/in/yourlink)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram\&logoColor=white)](https://instagram.com/yourprofile)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter\&logoColor=white)](https://twitter.com/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin\&logoColor=white)](https://linkedin.com/in/404)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram\&logoColor=white)](https://instagram.com/dyexaa)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter\&logoColor=white)](https://twitter.com/404)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube\&logoColor=white)](https://youtube.com/@DyexaHub)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord\&logoColor=white)](https://discord.gg/yourserver)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord\&logoColor=white)](https://discord.gg/404)
 
 ---
 
