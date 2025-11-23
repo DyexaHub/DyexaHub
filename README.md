@@ -104,8 +104,6 @@ $ skills --load-all
 <img src="https://skillicons.dev/icons?i=wireshark,raspberrypi,arduino,nginx,git,ssh,postman,cloudflare" />
 </p>
 
-* 🔒 Tools I trust: **Nmap**, **Metasploit**, **BurpSuite**, **OpenVAS**, **Aircrack-ng**, **Snort**, **ZAP**, **Netcat**, **Cisco Packet Tracer**
-
 ---
 
 ### 🗃️ Databases & Storage
