@@ -30,13 +30,7 @@ from **machine logic to human experience**.
 
 ---
 
-## 🌐 Cyber Zone
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ff63a1cf-b434-4efb-8df0-491881ebc147/deploy-status)](https://app.netlify.com/projects/dyexaa/deploys)
-
-<p align="center">
-  <img src="https://i.ibb.co/D9gqP5T/neon-grid.gif" width="700" alt="neon grid animation"/>
-</p>
+## 🌐 Powershell
 
 ```bash
 $ whoami
@@ -125,7 +119,7 @@ $ skills --load-all
 ### 🧩 Tools of the Trade
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=vscode,visualstudio,atom,replit,codepen,git,github,notion,obsidian,discord,slack,windows,androidstudio" />
+<img src="https://skillicons.dev/icons?i=vscode,visualstudio,atom,replit,codepen,git,github,notion,obsidian,discord,slack,androidstudio" />
 </p>
 
 ---
