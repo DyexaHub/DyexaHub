@@ -55,7 +55,7 @@ $ skills --load-all
 ### 💻 Programming Languages
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,html,css,php,go,rust,kotlin,cs,ruby,lua,scala,perl,haskell" />
+<img src="https://skillicons.dev/icons?i=python,java,cpp,js,ts,html,css,php,go,kotlin,cs,ruby,lua,scala,perl" />
 </p>
 
 ---
@@ -63,7 +63,7 @@ $ skills --load-all
 ### ⚙️ Frameworks & Libraries
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,nodejs,express,flask,django,fastapi,laravel,astro,threejs,tailwind,bootstrap,redux,jquery,flutter,qt,opencv" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,nodejs,express,flask,django,fastapi,laravel,threejs,tailwind,bootstrap,jquery,opencv" />
 </p>
 
 ---
