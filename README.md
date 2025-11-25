@@ -6,12 +6,12 @@ ________ _____.___._______________  ___  _____    ___ ___  ____ _____________
 /_______  / ______|/_______  //___/\  \____|__  /\___|_  /|______/  |______  /
         \/\/               \/       \_/       \/       \/                  \/ 
 -->
-
 <h1 align="center">
 ⚡ Welcome to <span style="color:#00FFFF;">DyexaHub</span> ⚡
 </h1>
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=4000&pause=1000&color=00FFFF&center=true&vCenter=true&repeat=false&width=435&lines=System+online...;Initializing+Network+Matrix;Deploying+Cyber+Core;Welcome+Visitor%2C;Here+is+Dyexa's+Space" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=4000&pause=1000&color=00FFFF&center=true&vCenter=true&width=435&lines=System+online...;Initializing+Network+Matrix;Deploying+Cyber+Core;Welcome+Visitor%2C;Here+is+Dyexa's+Space" />
 </p>
 
 ---
