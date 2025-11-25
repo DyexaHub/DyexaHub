@@ -24,7 +24,7 @@ Born in the digital age, raised by the chaos of open-source. My realm spans from
 from **machine logic to human experience**.  
 
 - 🎓 Information Systems student | **Mulia University**  
-- 💻 Network & System Engineer | **Linux-First Philosophy**  
+- 💻 Computer & Network Engineering | **Vocational High School**  
 - ⚙️ Passion: Crafting scalable systems, intelligent automations, and digital ecosystems  
 - 🧩 Philosophy: *Tech is an art form. Code is design. Network is life.*
 
@@ -144,7 +144,7 @@ $ skills --load-all
 
 ---
 
-## 🚀 PROJECTS ZONE — Live Deployments
+## 🚀 PROJECTS ZONE — Deployments
 
 | 🔮 Project        | 🌍 Description                                | ⚙️ Stack                           |
 | ----------------- | --------------------------------------------- | ---------------------------------- |
@@ -204,7 +204,7 @@ $ system.status
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin\&logoColor=white)](https://linkedin.com/in/404)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram\&logoColor=white)](https://instagram.com/dyexaa)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter\&logoColor=white)](https://twitter.com/404)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube\&logoColor=white)](https://youtube.com/@DyexaHub)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube\&logoColor=white)](https://youtube.com/dyexaa)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord\&logoColor=white)](https://discord.gg/404)
 
 ---
