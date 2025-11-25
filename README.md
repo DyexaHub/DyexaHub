@@ -163,7 +163,7 @@ $ skills --load-all
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DyexaHub&theme=matrix&no-frame=true&margin-w=15" width="850"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=dyexaa&theme=matrix"/>
 </p>
 
 <p align="center">
