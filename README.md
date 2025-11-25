@@ -7,8 +7,6 @@ ________ _____.___._______________  ___  _____    ___ ___  ____ _____________
         \/\/               \/       \_/       \/       \/                  \/ 
 -->
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
 <h1 align="center">
 ⚡ Welcome to <span style="color:#00FFFF;">DyexaHub</span> ⚡
 </h1>
