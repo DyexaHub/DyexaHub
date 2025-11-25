@@ -228,10 +228,4 @@ $ system.status
 
 ---
 
-<p align="center">
-<img src="https://i.ibb.co/qg8DBsK/final-banner.gif" width="700" alt="DyexaHub cyber banner"/>
-</p>
-
----
-
 <h3 align="center">⚡ Crafted with <span style="color:#00FFFF;">passion</span> and powered by <span style="color:#FF00FF;">chaos</span> ⚡</h3>
