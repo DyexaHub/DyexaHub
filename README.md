@@ -108,14 +108,6 @@ $ skills --load-all
 
 ---
 
-### 🎨 UI/UX Design & Media Production
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=figma" />
-</p>
-
----
-
 ### 🧩 Tools of the Trade
 
 <p align="center">
