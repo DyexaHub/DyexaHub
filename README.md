@@ -71,7 +71,7 @@ $ skills --load-all
 ### 🧠 Machine Learning
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,keras,mlflow,matlab,jupyter" />
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,jupyter" />
 </p>
 
 ---
@@ -79,7 +79,7 @@ $ skills --load-all
 ### ☁️ Cloud, DevOps & Infrastructure
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,ansible,jenkins,nginx,apache,gitlab,vercel,netlify,cloudflare" />
+<img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,ansible,jenkins,nginx,gitlab,vercel,netlify,cloudflare" />
 </p>
 
 ---
@@ -87,7 +87,7 @@ $ skills --load-all
 ### 🧰 Operating Systems & Distros
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,arch,redhat,kali,centos,windows,apple" />
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,arch,redhat,kali,windows,apple" />
 </p>
 
 ---
@@ -95,7 +95,7 @@ $ skills --load-all
 ### 🕸️ Networking & Cybersecurity Arsenal
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=wireshark,raspberrypi,arduino,nginx,git,ssh,postman,cloudflare" />
+<img src="https://skillicons.dev/icons?i=wireshark,raspberrypi,arduino,nginx,git,postman,cloudflare" />
 </p>
 
 ---
@@ -103,7 +103,7 @@ $ skills --load-all
 ### 🗃️ Databases & Storage
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,redis,sqlite,oracle,firebase,supabase,prisma" />
+<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,redis,sqlite,firebase,supabase,prisma" />
 </p>
 
 ---
@@ -111,7 +111,7 @@ $ skills --load-all
 ### 🧩 Tools of the Trade
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=vscode,visualstudio,atom,replit,codepen,git,github,notion,obsidian,discord,slack,androidstudio" />
+<img src="https://skillicons.dev/icons?i=vscode,visualstudio,atom,replit,codepen,git,github,notion,obsidian,discord,androidstudio" />
 </p>
 
 ---
