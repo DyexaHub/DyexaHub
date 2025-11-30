@@ -121,9 +121,9 @@ $ skills --load-all
 ```bash
 # Dyexa@machine:~$ systemctl status self
 🟢  Active (running)
-├─ Environment: Linux / Arch / Debian / Ubuntu
-├─ Shell: Zsh + Powerlevel10k
-├─ Editor: VSCode + Vim + Nano (in emergencies)
+├─ Environment: Linux
+├─ Shell: Zsh
+├─ Editor: VSCode
 ├─ Uptime: Infinite
 └─ Motto: "sudo make the world better"
 ```
