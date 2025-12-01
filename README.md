@@ -197,6 +197,9 @@ $ system.status
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram\&logoColor=white)](https://instagram.com/dyexaa)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube\&logoColor=white)](https://youtube.com/dyexaa)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord\&logoColor=white)](https://discord.gg/.ndrean)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=white)](mailto:eksarahardika88@gmail.com)
+[![Threads](https://img.shields.io/badge/Threads-000000?logo=threads&logoColor=white)](https://www.threads.net/dyexaa)
+[![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/user/dyexaa)
 
 ---
 
