@@ -193,11 +193,10 @@ $ system.status
 
 ## 📡 SOCIAL NETWORKS
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin\&logoColor=white)](https://linkedin.com/in/404)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin\&logoColor=white)](https://linkedin.com/in/dyexaa)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram\&logoColor=white)](https://instagram.com/dyexaa)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter\&logoColor=white)](https://twitter.com/404)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube\&logoColor=white)](https://youtube.com/dyexaa)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord\&logoColor=white)](https://discord.gg/404)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord\&logoColor=white)](https://discord.gg/.ndrean)
 
 ---
 
