@@ -195,13 +195,12 @@ $ system.status
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin\&logoColor=white)](https://linkedin.com/in/dyexaa)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram\&logoColor=white)](https://instagram.com/dyexaa)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube\&logoColor=white)](https://youtube.com/404)
+<!-- [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube\&logoColor=white)](https://youtube.com/404)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord\&logoColor=white)](https://discord.gg/404)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=white)](mailto:eksarahardika88@gmail.com)
 [![Threads](https://img.shields.io/badge/Threads-000000?logo=threads&logoColor=white)](https://www.threads.net/dyexaa)
 [![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/user/404)
-[![Steam](https://img.shields.io/badge/Steam-000000?logo=steam&logoColor=white)](https://steamcommunity.com/id/404)
-
+[![Steam](https://img.shields.io/badge/Steam-000000?logo=steam&logoColor=white)](https://steamcommunity.com/id/404) -->
 
 ---
 
