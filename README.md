@@ -25,7 +25,7 @@ from **machine logic to human experience**.
 
 - 🎓 Information Systems student | **Mulia University**  
 - 💻 Computer & Network Engineering | **Vocational High School**  
-- ⚙️ Passion: Crafting scalable systems, intelligent automations, and digital ecosystems  
+- ⚙️ Passion: Vibe Coder
 - 🧩 Philosophy: *Tech is an art form. Code is design. Network is life.*
 
 ---
