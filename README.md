@@ -139,16 +139,16 @@ $ skills --load-all
 ## 📊 LIVE DASHBOARD
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DyexaHub&show_icons=true&theme=radical&count_private=true&hide_border=true" width="450"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DyexaHub&theme=radical&hide_border=true" width="450"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=dyexahub&show_icons=true&theme=radical&count_private=true&hide_border=true" width="450"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dyexahub&theme=radical&hide_border=true" width="450"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dyexaa&theme=matrix"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=dyexahub&theme=matrix"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=DyexaHub&color=00FFFF&label=Visitors" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=dyexahub&color=00FFFF&label=Visitors" alt="Profile views"/>
 </p>
 
 ---
