@@ -136,17 +136,6 @@ $ skills --load-all
 
 ---
 
-## 🚀 PROJECTS ZONE — Deployments
-
-| 🔮 Project        | 🌍 Description                                | ⚙️ Stack                           |
-| ----------------- | --------------------------------------------- | ---------------------------------- |
-| **NeuralPulse**   | Real-time AI system log visualizer            | Python, Flask, WebSocket, Tailwind |
-| **SysFlow**       | Automated system monitor for Linux servers    | Bash, Python, Grafana, Prometheus  |
-| **NetForge**      | Network topology simulator for education      | JS, React, WebGL, Socket.IO        |
-| **HoloUI**        | Cyberpunk dashboard template for developers   | HTML, CSS, Three.js                |
-
----
-
 ## 📊 LIVE DASHBOARD
 
 <p align="center">
