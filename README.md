@@ -116,20 +116,6 @@ $ skills --load-all
 
 ---
 
-## ⚡ THE LINUX CORNER — Terminal of Truth
-
-```bash
-# Dyexa@machine:~$ systemctl status self
-🟢  Active (running)
-├─ Environment: Linux
-├─ Shell: Zsh
-├─ Editor: VSCode
-├─ Uptime: Infinite
-└─ Motto: "sudo make the world better"
-```
-
----
-
 ## 🛰️ GRAPHIC VISUALIZATION — The Cyber Graph
 
 [![Drey's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dyexahub&theme=react-dark)](https://github.com/dyexahub/github-readme-activity-graph)
