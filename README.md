@@ -165,21 +165,6 @@ $ system.status
 
 ---
 
-## 🧬 DESIGN & ARTISTIC PLAYGROUND
-
-* 🎨 **3D Creation:** Blender, Figma, After Effects
-* 🧩 **Motion Design:** WebGL, Three.js, LottieFiles
-
----
-
-## 🧭 PHILOSOPHY
-
-> “Perfection is sterile — chaos births innovation.”
-> Every system I build reflects the balance between order and entropy.
-> From Linux daemons to neural interfaces, I believe technology should breathe — alive, adaptive, unbound.
-
----
-
 ## 📡 SOCIAL NETWORKS
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin\&logoColor=white)](https://linkedin.com/in/dyexaa)
@@ -190,25 +175,6 @@ $ system.status
 [![Threads](https://img.shields.io/badge/Threads-000000?logo=threads&logoColor=white)](https://www.threads.net/dyexaa)
 [![Spotify](https://img.shields.io/badge/Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/user/404)
 [![Steam](https://img.shields.io/badge/Steam-000000?logo=steam&logoColor=white)](https://steamcommunity.com/id/404) -->
-
----
-
-## 🧠 MESSAGE FROM THE MACHINE
-
-> ```
-> [SYSTEM ANNOUNCEMENT: DYEXA_HUB.EXE]
-> Initializing final transmission...
->
-> “Technology is not a tool. It’s an extension of consciousness.”
->
-> I don’t just write code — I architect systems that think, networks that feel,
-> and interfaces that connect human intuition with machine logic.
->
-> You are now part of this digital evolution.
-> Stay connected. Stay curious. Stay infinite.
->
-> [End of Transmission]
-> ```
 
 ---
 
